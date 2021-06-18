@@ -1,0 +1,686 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=shift_jis">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="DataExtraction_files/filelist.xml">
+<link rel=Edit-Time-Data href="DataExtraction_files/editdata.mso">
+<link rel=OLE-Object-Data href="DataExtraction_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>hrd</o:LastAuthor>
+  <o:LastSaved>2020-02-13T02:26:07Z</o:LastSaved>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"ＭＳ Ｐゴシック", monospace;
+	mso-font-charset:128;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"ＭＳ Ｐゴシック", monospace;
+	mso-font-charset:128;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	border:.5pt solid windowtext;}
+.xl25
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-weight:700;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl26
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:center;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+.xl27
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	mso-number-format:"Short Date";
+	text-align:center;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:6.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"ＭＳ Ｐゴシック", monospace;
+	mso-font-charset:128;
+	mso-char-type:katakana;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>DataExtraction</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>240</x:DefaultRowHeight>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:HorizontalResolution>600</x:HorizontalResolution>
+      <x:VerticalResolution>600</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>13725</x:WindowHeight>
+  <x:WindowWidth>18180</x:WindowWidth>
+  <x:WindowTopX>480</x:WindowTopX>
+  <x:WindowTopY>45</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+<meta name=created content="0;0">
+<meta name=changedby content=smd>
+<meta name=changed content="20180206;105909000000000">
+</head>
+
+<body link=blue vlink=purple class=xl24>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=600 style='border-collapse:
+ collapse;table-layout:fixed;width:452pt'>
+ <col class=xl24 width=102 style='mso-width-source:userset;mso-width-alt:3264;
+ width:77pt'>
+ <col class=xl24 width=94 style='mso-width-source:userset;mso-width-alt:3008;
+ width:71pt'>
+ <col class=xl24 width=99 style='mso-width-source:userset;mso-width-alt:3168;
+ width:74pt'>
+ <col class=xl24 width=53 style='mso-width-source:userset;mso-width-alt:1696;
+ width:40pt'>
+ <col class=xl24 width=68 style='mso-width-source:userset;mso-width-alt:2176;
+ width:51pt'>
+ <col class=xl24 width=70 style='mso-width-source:userset;mso-width-alt:2240;
+ width:53pt'>
+ <col class=xl24 width=46 style='mso-width-source:userset;mso-width-alt:1472;
+ width:35pt'>
+ <col class=xl24 width=68 style='mso-width-source:userset;mso-width-alt:2176;
+ width:51pt'>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl24 width=102 style='height:12.0pt;width:77pt'>Date
+  Created: 20<span style='display:none'>20/02/13 10:26</span></td>
+  <td class=xl24 width=94 style='border-left:none;width:71pt'>　</td>
+  <td class=xl24 width=99 style='border-left:none;width:74pt'>　</td>
+  <td class=xl24 width=53 style='border-left:none;width:40pt'>　</td>
+  <td class=xl24 width=68 style='border-left:none;width:51pt'>　</td>
+  <td class=xl24 width=70 style='border-left:none;width:53pt'>　</td>
+  <td class=xl24 width=46 style='border-left:none;width:35pt'>　</td>
+  <td class=xl24 width=68 style='border-left:none;width:51pt'>　</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl24 style='height:12.0pt;border-top:none'>　</td>
+  <td class=xl24 style='border-top:none;border-left:none'>　</td>
+  <td class=xl24 style='border-top:none;border-left:none'>　</td>
+  <td class=xl24 style='border-top:none;border-left:none'>　</td>
+  <td class=xl24 style='border-top:none;border-left:none'>　</td>
+  <td class=xl24 style='border-top:none;border-left:none'>　</td>
+  <td class=xl24 style='border-top:none;border-left:none'>　</td>
+  <td class=xl24 style='border-top:none;border-left:none'>　</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl25 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>PlanCode</td>
+  <td class=xl25 width=94 style='border-top:none;border-left:none;width:71pt'>Joutou
+  Date</td>
+  <td class=xl25 width=99 style='border-top:none;border-left:none;width:74pt'>House
+  Type</td>
+  <td class=xl25 width=53 style='border-top:none;border-left:none;width:40pt'>Floors</td>
+  <td class=xl25 width=68 style='border-top:none;border-left:none;width:51pt'>JobCode</td>
+  <td class=xl25 width=70 style='border-top:none;border-left:none;width:53pt'>InCharge</td>
+  <td class=xl25 width=46 style='border-top:none;border-left:none;width:35pt'>Start</td>
+  <td class=xl25 width=68 style='border-top:none;border-left:none;width:51pt'>Finish</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>1450308-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43930">2020/4/9</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>L08N199-1704</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43936">2020/4/15</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>6280251-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43937">2020/4/16</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>1</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>9954199-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43939">2020/4/18</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>0760595-2017</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43939">2020/4/18</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>1</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>1200160-2018</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43941">2020/4/20</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>0240028-2018</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43942">2020/4/21</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>1</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>3490316-2016</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43948">2020/4/27</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>4330477-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43958">2020/5/7</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>1</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>4630670-2018</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43958">2020/5/7</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>6220032-2017</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43958">2020/5/7</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-cube</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>0440522-2017</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43958">2020/5/7</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>3480640-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43958">2020/5/7</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>K04M191-1811</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43959">2020/5/8</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>1780317-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43963">2020/5/12</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>5590519-2017</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43965">2020/5/14</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>8110237-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43965">2020/5/14</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>0210423-2017</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43966">2020/5/15</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smile(2×6)</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>9750061-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43969">2020/5/18</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smile(2×6)</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>C12X479-2021</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43969">2020/5/18</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>I01S421-1902</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43970">2020/5/19</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>1</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>A01Z190-0008</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43970">2020/5/19</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>4050273-2018</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43972">2020/5/21</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>3760393-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43973">2020/5/22</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smile(2×6)</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>2490375-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43973">2020/5/22</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-cube</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>4590540-2018</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43976">2020/5/25</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>1</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>0110320-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43977">2020/5/26</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-cube</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>5840060-2018</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43984">2020/6/2</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>2530159-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43991">2020/6/9</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>6290577-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="43997">2020/6/15</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>2</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <tr height=16 style='height:12.0pt'>
+  <td height=16 class=xl26 width=102 style='height:12.0pt;border-top:none;
+  width:77pt'>7790189-2019</td>
+  <td class=xl27 width=94 style='border-top:none;border-left:none;width:71pt'
+  x:num="44014">2020/7/2</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>i-smart(３階建)</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'
+  x:num>3</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'
+  x:num>38678</td>
+  <td class=xl26 width=46 style='border-top:none;border-left:none;width:35pt'>　</td>
+  <td class=xl27 width=68 style='border-top:none;border-left:none;width:51pt'
+  x:num="43862">2020/2/1</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=102 style='width:77pt'></td>
+  <td width=94 style='width:71pt'></td>
+  <td width=99 style='width:74pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=68 style='width:51pt'></td>
+  <td width=70 style='width:53pt'></td>
+  <td width=46 style='width:35pt'></td>
+  <td width=68 style='width:51pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+<!-- ************************************************************************** -->
+</body>
+
+</html>

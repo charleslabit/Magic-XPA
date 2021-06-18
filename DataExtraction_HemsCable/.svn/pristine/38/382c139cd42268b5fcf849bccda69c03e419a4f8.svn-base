@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="94" Name="m_HemsCableDataExtraction"/>
+
+  <Task ID="94.3" Name="Get Data">
+    <Error Desc="Problem opening the template file - " ID="EP0081" Location="Form #4/Properties/File name"/>
+  </Task>
+
+</CheckerResult>

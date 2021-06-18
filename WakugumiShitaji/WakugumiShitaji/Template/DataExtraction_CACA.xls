@@ -1,0 +1,1021 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=shift_jis">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="DataExtraction_CACA_files/filelist.xml">
+<link rel=Edit-Time-Data href="DataExtraction_CACA_files/editdata.mso">
+<link rel=OLE-Object-Data href="DataExtraction_CACA_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>hrd</o:LastAuthor>
+  <o:Created>2021-02-02T05:05:01Z</o:Created>
+  <o:LastSaved>2021-02-02T23:09:27Z</o:LastSaved>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"ＭＳ Ｐゴシック", monospace;
+	mso-font-charset:128;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"ＭＳ Ｐゴシック", monospace;
+	mso-font-charset:128;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-weight:700;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl25
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	border:.5pt solid windowtext;}
+.xl26
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:center;
+	border:.5pt solid windowtext;
+	white-space:normal;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:6.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"ＭＳ Ｐゴシック", monospace;
+	mso-font-charset:128;
+	mso-char-type:katakana;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>DataExtraction_TEST_NEW</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>270</x:DefaultRowHeight>
+     <x:Unsynced/>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:HorizontalResolution>600</x:HorizontalResolution>
+      <x:VerticalResolution>600</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>12150</x:WindowHeight>
+  <x:WindowWidth>18180</x:WindowWidth>
+  <x:WindowTopX>480</x:WindowTopX>
+  <x:WindowTopY>60</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+<meta name=created content="0;0">
+<meta name=changedby content=smd>
+<meta name=changed content="20180206;105909000000000">
+</head>
+
+<body link=blue vlink=purple class=xl25>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=1676 style='border-collapse:
+ collapse;table-layout:fixed;width:1259pt'>
+ <col class=xl25 width=172 style='mso-width-source:userset;mso-width-alt:5504;
+ width:129pt'>
+ <col class=xl25 width=89 style='mso-width-source:userset;mso-width-alt:2848;
+ width:67pt'>
+ <col class=xl25 width=99 style='mso-width-source:userset;mso-width-alt:3168;
+ width:74pt'>
+ <col class=xl25 width=94 style='mso-width-source:userset;mso-width-alt:3008;
+ width:71pt'>
+ <col class=xl25 width=222 span=2 style='mso-width-source:userset;mso-width-alt:
+ 7104;width:167pt'>
+ <col class=xl25 width=88 style='mso-width-source:userset;mso-width-alt:2816;
+ width:66pt'>
+ <col class=xl25 width=53 style='mso-width-source:userset;mso-width-alt:1696;
+ width:40pt'>
+ <col class=xl25 width=51 style='mso-width-source:userset;mso-width-alt:1632;
+ width:38pt'>
+ <col class=xl25 width=59 style='mso-width-source:userset;mso-width-alt:1888;
+ width:44pt'>
+ <col class=xl25 width=82 style='mso-width-source:userset;mso-width-alt:2624;
+ width:62pt'>
+ <col class=xl25 width=109 style='mso-width-source:userset;mso-width-alt:3488;
+ width:82pt'>
+ <col class=xl25 width=68 style='mso-width-source:userset;mso-width-alt:2176;
+ width:51pt'>
+ <col class=xl25 width=70 style='mso-width-source:userset;mso-width-alt:2240;
+ width:53pt'>
+ <col class=xl25 width=99 span=2 style='mso-width-source:userset;mso-width-alt:
+ 3168;width:74pt'>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl25 width=172 style='height:13.5pt;width:129pt'>Date
+  Created: 2021/02/03 07<span style='display:none'>:09</span></td>
+  <td class=xl25 width=89 style='border-left:none;width:67pt'>　</td>
+  <td class=xl25 width=99 style='border-left:none;width:74pt'>　</td>
+  <td class=xl25 width=94 style='border-left:none;width:71pt'>　</td>
+  <td class=xl25 width=222 style='border-left:none;width:167pt'>　</td>
+  <td class=xl25 width=222 style='border-left:none;width:167pt'>　</td>
+  <td class=xl25 width=88 style='border-left:none;width:66pt'>　</td>
+  <td class=xl25 width=53 style='border-left:none;width:40pt'>　</td>
+  <td class=xl25 width=51 style='border-left:none;width:38pt'>　</td>
+  <td class=xl25 width=59 style='border-left:none;width:44pt'>　</td>
+  <td class=xl25 width=82 style='border-left:none;width:62pt'>　</td>
+  <td class=xl25 width=109 style='border-left:none;width:82pt'>　</td>
+  <td class=xl25 width=68 style='border-left:none;width:51pt'>　</td>
+  <td class=xl25 width=70 style='border-left:none;width:53pt'>　</td>
+  <td class=xl25 width=99 style='border-left:none;width:74pt'>　</td>
+  <td class=xl25 width=99 style='border-left:none;width:74pt'>　</td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl25 style='height:13.5pt;border-top:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+  <td class=xl25 style='border-top:none;border-left:none'>　</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl24 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>PlanCode</td>
+  <td class=xl24 width=89 style='border-top:none;border-left:none;width:67pt'>House
+  Type</td>
+  <td class=xl24 width=99 style='border-top:none;border-left:none;width:74pt'>KANABAKARI</td>
+  <td class=xl24 width=94 style='border-top:none;border-left:none;width:71pt'>Joutou
+  Date</td>
+  <td class=xl24 width=222 style='border-top:none;border-left:none;width:167pt'>KOUZOU</td>
+  <td class=xl24 width=222 style='border-top:none;border-left:none;width:167pt'>KOUZOU
+  GAIBU</td>
+  <td class=xl24 width=88 style='border-top:none;border-left:none;width:66pt'>FIREPROOF</td>
+  <td class=xl24 width=53 style='border-top:none;border-left:none;width:40pt'>Floors</td>
+  <td class=xl24 width=51 style='border-top:none;border-left:none;width:38pt'>Tsubo</td>
+  <td class=xl24 width=59 style='border-top:none;border-left:none;width:44pt'>Invoice</td>
+  <td class=xl24 width=82 style='border-top:none;border-left:none;width:62pt'>耐水害住宅</td>
+  <td class=xl24 width=109 style='border-top:none;border-left:none;width:82pt'>構造(防火)</td>
+  <td class=xl24 width=68 style='border-top:none;border-left:none;width:51pt'>JobCode</td>
+  <td class=xl24 width=70 style='border-top:none;border-left:none;width:53pt'>InCharge</td>
+  <td class=xl24 width=99 style='border-top:none;border-left:none;width:74pt'>Start</td>
+  <td class=xl24 width=99 style='border-top:none;border-left:none;width:74pt'>Finish</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>2930225-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/10</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>31.56</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>10</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>6780035-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-cube</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/12</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：あり</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>準防火仕様</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>39.64</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>6740177-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smile(2×6)</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/12</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>31.81</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>8270063-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/13</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>33.07</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>4590108-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２６０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/13</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>35.32</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>3710249-2018</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/15</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>41.96</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>10</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>1210174-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smile(2×6)</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/19</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>33.32</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>6230021-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/19</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>29.81</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>9559080-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/19</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：あり</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>30.19</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>3160076-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/20</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：あり</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>38.83</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>T160026-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/22</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>24.67</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>0190373-2018</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-cube</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/26</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：あり</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>37.95</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>9553433-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/26</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：あり</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>36.45</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>7740138-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/26</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>21.98</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>4820180-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smile(2×6)</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/27</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>31.69</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>K04M232-2001</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋Ｔ</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/27</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>33.19</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>12</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>1450045-2018</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/04/28</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>31.00</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>2760421-2019</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２６０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/06</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>53.92</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>0440035-2018</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/06</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>32.94</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>A01Z200-0162</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/06</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>33.32</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>13</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>1410209-2019</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smile(2×6)</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/07</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>30.81</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>9957293-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-cube</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/11</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：あり</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>30.81</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>3700184-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/11</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>30.69</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>I02S629-2005</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smile(2×6)</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/11</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>34.82</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>14</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>8570163-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋Ｔ</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/12</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>36.07</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>A01Z200-0175</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/13</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>25.55</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>14</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>A01Z200-0187</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/13</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>24.49</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>14</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>3690137-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/17</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>29.93</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>4570286-2019</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/17</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：あり</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>32.19</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>9558749-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/17</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：あり</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>32.57</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>9556705-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-cube</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/18</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：あり</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>準防火仕様</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>28.18</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>9756418-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-cube</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/18</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>34.88</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>I03S169-1902</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/19</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>30.06</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>0500968-2013</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/20</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>40.02</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>D132000-2850</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/05/31</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>1</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>29.31</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>高防火外壁：なし</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>0550092-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/06/01</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>34.44</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>T160051-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/06/07</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>36.89</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>4890092-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smile(2×6)</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/06/21</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>30.94</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>9356224-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smart</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/06/22</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>ミッドプライ･ウォール･システム：なし</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>30.94</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0023428</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/30</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl26 width=172 style='height:13.5pt;border-top:none;
+  width:129pt'>4850114-2020</td>
+  <td class=xl26 width=89 style='border-top:none;border-left:none;width:67pt'>i-smile(2×6)</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>２４０＋</td>
+  <td class=xl26 width=94 style='border-top:none;border-left:none;width:71pt'>2021/06/29</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=222 style='border-top:none;border-left:none;width:167pt'>　</td>
+  <td class=xl26 width=88 style='border-top:none;border-left:none;width:66pt'>なし</td>
+  <td class=xl26 width=53 style='border-top:none;border-left:none;width:40pt'>2</td>
+  <td class=xl26 width=51 style='border-top:none;border-left:none;width:38pt'>32.06</td>
+  <td class=xl26 width=59 style='border-top:none;border-left:none;width:44pt'>　</td>
+  <td class=xl26 width=82 style='border-top:none;border-left:none;width:62pt'>なし</td>
+  <td class=xl26 width=109 style='border-top:none;border-left:none;width:82pt'>　</td>
+  <td class=xl26 width=68 style='border-top:none;border-left:none;width:51pt'>H22805</td>
+  <td class=xl26 width=70 style='border-top:none;border-left:none;width:53pt'>0039304</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>　</td>
+  <td class=xl26 width=99 style='border-top:none;border-left:none;width:74pt'>2021/01/25</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=172 style='width:129pt'></td>
+  <td width=89 style='width:67pt'></td>
+  <td width=99 style='width:74pt'></td>
+  <td width=94 style='width:71pt'></td>
+  <td width=222 style='width:167pt'></td>
+  <td width=222 style='width:167pt'></td>
+  <td width=88 style='width:66pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=59 style='width:44pt'></td>
+  <td width=82 style='width:62pt'></td>
+  <td width=109 style='width:82pt'></td>
+  <td width=68 style='width:51pt'></td>
+  <td width=70 style='width:53pt'></td>
+  <td width=99 style='width:74pt'></td>
+  <td width=99 style='width:74pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+<!-- ************************************************************************** -->
+</body>
+
+</html>

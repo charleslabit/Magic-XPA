@@ -1,0 +1,284 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=shift_jis">
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.2.3.2 (Windows)">
+	<meta name="created" content="0;0">
+	<meta name="changedby" content="smd">
+	<meta name="changed" content="20180206;105909000000000">
+	
+	<style type="text/css"><!-- 
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"ＭＳ Ｐゴシック"; font-size:x-small }
+		 -->
+	</style>
+	
+</head>
+
+<table>	
+
+<tr>
+<tr>
+<tr>
+		<td align="center" bgcolor="#B2B2B2"><b>ConstructionCode</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>JoutouDate</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>RequestYear</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>RequestWeek</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>RequestDestination</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Hinban</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Qty</b></td>
+
+	</tr>
+	<tr>
+		<td align="center">A01Z180-0230</td>
+
+		<td align="center">2019/11/07</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         39</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTC-YPC-EPA-005-3M-BLU</td>
+		
+		<td align="center">         1.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z180-0230</td>
+
+		<td align="center">2019/11/07</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         39</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTC-YPC-EPA-034-2M-G-BLU</td>
+		
+		<td align="center">         1.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z180-0230</td>
+
+		<td align="center">2019/11/07</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         39</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTC-YPC-EPA-035-2M-K-BLU</td>
+		
+		<td align="center">         1.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z180-0230</td>
+
+		<td align="center">2019/11/07</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         39</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTS-BUNKI-30-B</td>
+		
+		<td align="center">        25.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z180-0230</td>
+
+		<td align="center">2019/11/07</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         39</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTS-SYUKAN-120-B</td>
+		
+		<td align="center">         2.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z190-0030</td>
+
+		<td align="center">2019/11/07</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         39</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTC-YPC-EPA-005-3M-BLU</td>
+		
+		<td align="center">         1.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z190-0030</td>
+
+		<td align="center">2019/11/07</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         39</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTC-YPC-EPA-034-2M-G-BLU</td>
+		
+		<td align="center">         1.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z190-0030</td>
+
+		<td align="center">2019/11/07</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         39</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTC-YPC-EPA-034-2M-K-BLU</td>
+		
+		<td align="center">         1.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z190-0030</td>
+
+		<td align="center">2019/11/07</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         39</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTS-BUNKI-30-B</td>
+		
+		<td align="center">        23.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z190-0030</td>
+
+		<td align="center">2019/11/07</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         39</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTS-SYUKAN-120-B</td>
+		
+		<td align="center">         2.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z180-0263</td>
+
+		<td align="center">2019/11/12</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         40</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTC-YPC-EPA-005-2M-BLU</td>
+		
+		<td align="center">         1.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z180-0263</td>
+
+		<td align="center">2019/11/12</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         40</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTC-YPC-EPA-033-2M-G-BLU</td>
+		
+		<td align="center">         1.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z180-0263</td>
+
+		<td align="center">2019/11/12</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         40</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTC-YPC-EPA-033-2M-K-BLU</td>
+		
+		<td align="center">         1.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z180-0263</td>
+
+		<td align="center">2019/11/12</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         40</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTS-BUNKI-30-B</td>
+		
+		<td align="center">        20.000</td>
+		
+	</tr>
+	<tr>
+		<td align="center">A01Z180-0263</td>
+
+		<td align="center">2019/11/12</td>
+
+		<td align="center">       2019</td>
+
+		<td align="center">         40</td>
+
+		<td align="center">F</td>
+
+		<td align="center">CTS-SYUKAN-120-B</td>
+		
+		<td align="center">         2.000</td>
+		
+	</tr>
+</table>
+<!-- ************************************************************************** -->
+</body>
+
+</html>

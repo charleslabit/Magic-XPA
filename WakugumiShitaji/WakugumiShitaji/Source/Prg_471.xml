@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12050"/>
+    <WithIsn val="Y"/>
+    <_InternalTask val="N"/>
+    <IsRoot val="N"/>
+    <InIndex val="N"/>
+  </Header>
+
+  <ProgramsRepository>
+    <Programs>
+      <Task MainProgram="N">
+        <Header Description="sub_GenerateDataExtraction" ISN_2="4" LastIsn="4" id="471">
+          <ExecutionRight comp="-1"/>
+          <Resident val="N"/>
+          <SQL val="Y"/>
+          <ReturnValue>
+            <ReturnValueAttr/>
+            <TSK_PARAMS val="2"/>
+            <ParametersCount val="2"/>
+            <ParametersAttributes>
+              <Attr MgAttr="A"/>
+              <Attr MgAttr="A"/>
+            </ParametersAttributes>
+          </ReturnValue>
+          <SqlWhereExist val="N"/>
+          <TaskType val="B"/>
+          <External val="N"/>
+          <Offline val="N"/>
+          <FormType val="N"/>
+          <DotNetObjectExists val="N"/>
+          <LastModified _date="737823" _time="48109" date="2021/02/02" time="13:21:49"/>
+        </Header>
+        <ItemIsn val="112"/>
+        <Resource>
+          <DB>
+            <DataObject comp="-1" obj="67"/>
+            <Access val="R"/>
+            <Share val="W"/>
+            <Open val="N"/>
+            <Cache val="N"/>
+            <IdentifyRowModifications val="84"/>
+          </DB>
+          <IO id="2">
+            <Description val="Export"/>
+            <IOExpression val="2"/>
+            <OpenPrintDialog val="N"/>
+            <PaperSize val="68"/>
+            <Format val="L"/>
+            <Media val="I"/>
+            <Access val="W"/>
+            <Copies val="1"/>
+            <Orientation val="P"/>
+            <PrintPreview val="N"/>
+            <PDF val="N"/>
+            <PrintingAllowed val="Y"/>
+            <ContentCopyingAllowed val="Y"/>
+            <ChangesAllowed val="Y"/>
+            <PageLayoutAllowed val="Y"/>
+            <Vis2LogTranslation val="N"/>
+            <FlipLines val="N"/>
+          </IO>
+          <Columns>
+            <Column id="15" name="PR:JobCode">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="12"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="12"/>
+                <Definition id="175" val="2"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="16" name="PR:Date">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="12"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="12"/>
+                <Definition id="175" val="2"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="1" name="PlanCode">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="12"/>
+                <NullAllowed id="166"/>
+                <NullDefault id="169"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="12"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="PlanCode"/>
+                <Type id="179" val="VARCHAR(12)"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="2" name="JoutouDate">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_DATE" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="####/##/##"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="19"/>
+                <Size id="174" val="8"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="JoutouDate"/>
+                <Type id="179" val="DATETIME"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244" val="3"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="3" name="JoutouDate_time">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_TIME" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="HH:MM:SS"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="24"/>
+                <Size id="174" val="6"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="JoutouDate"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244" val="2"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="17" name="KOUZOU">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="255"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="255"/>
+                <Definition id="175" val="2"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="18" name="KOUZOU_GAIBU">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="255"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="255"/>
+                <Definition id="175" val="2"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="4" name="Floors">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Range id="98" valUnicode="\-2147483648-2147483647"/>
+                <Picture id="157" valUnicode="N10"/>
+                <NullAllowed id="166"/>
+                <NullDefault id="169"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="4"/>
+                <Size id="174" val="4"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="Floors"/>
+                <Type id="179" val="INTEGER"/>
+                <UserType id="180"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="10"/>
+                <_Negative id="192" val="Y"/>
+                <PartOfDatetime id="244"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="5" name="JobCode">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="6"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="6"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="JobCode"/>
+                <Type id="179" val="VARCHAR(6)"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="6" name="InChargeCode">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="7"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="7"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="InChargeCode"/>
+                <Type id="179" val="VARCHAR(7)"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="7" name="StartedDate">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_DATE" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="####/##/##"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="19"/>
+                <Size id="174" val="8"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="StartedDate"/>
+                <Type id="179" val="DATETIME"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244" val="8"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="8" name="StartedDate_time">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_TIME" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="HH:MM:SS"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="24"/>
+                <Size id="174" val="6"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="StartedDate"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244" val="7"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="9" name="FinishedDate">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_DATE" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="####/##/##"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="19"/>
+                <Size id="174" val="8"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="FinishedDate"/>
+                <Type id="179" val="DATETIME"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244" val="10"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="10" name="FinishedDate_time">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_TIME" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="HH:MM:SS"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="24"/>
+                <Size id="174" val="6"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="FinishedDate"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244" val="9"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="11" name="Invoice">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Range id="98" valUnicode="\-2147483648-2147483647"/>
+                <Picture id="157" valUnicode="N10"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="4"/>
+                <Size id="174" val="4"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="Invoice"/>
+                <Type id="179" val="INTEGER"/>
+                <UserType id="180"/>
+                <_Dec id="181"/>
+                <_Whole id="182" val="10"/>
+                <_Negative id="192" val="Y"/>
+                <PartOfDatetime id="244"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="19" name="耐水害住宅">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="255"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="255"/>
+                <Definition id="175" val="2"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="20" name="構造(防火)">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Picture id="157" valUnicode="255"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="255"/>
+                <Definition id="175" val="2"/>
+                <_Flip id="194"/>
+              </PropertyList>
+            </Column>
+            <Column id="12" name="FireProof">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="30"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="30"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="FireProof"/>
+                <Type id="179" val="VARCHAR(30)"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="13" name="Tsubo">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="N7.2"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="6"/>
+                <Size id="174" val="8"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="Tsubo"/>
+                <Type id="179" val="NUMERIC(9,2)"/>
+                <UserType id="180"/>
+                <_Dec id="181" val="2"/>
+                <_Whole id="182" val="7"/>
+                <_Negative id="192"/>
+                <PartOfDatetime id="244"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+            <Column id="14" name="Kanabakari">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" id="1"/>
+                <Range id="98"/>
+                <Picture id="157" valUnicode="30"/>
+                <NullAllowed id="166" val="Y"/>
+                <NullDefault id="169" val="Y"/>
+                <CharSet id="172" val="1"/>
+                <StoredAs id="173" val="3"/>
+                <Size id="174" val="30"/>
+                <Definition id="175" val="2"/>
+                <DatabaseInformation id="177"/>
+                <DbColumnName id="178" val="Kanabakari"/>
+                <Type id="179" val="VARCHAR(30)"/>
+                <UserType id="180"/>
+                <PartOfDatetime id="244"/>
+                <DefaultStorage id="274"/>
+                <Content id="434"/>
+              </PropertyList>
+            </Column>
+          </Columns>
+          <ColumnsLastIsn val="20"/>
+        </Resource>
+        <Information>
+          <Key>
+            <Mode val="N"/>
+          </Key>
+          <DB comp="-1"/>
+          <Sort>
+            <CLS val="A"/>
+          </Sort>
+          <ForceRecordDelete DEL="N"/>
+          <EndTaskCondition val="N"/>
+          <EvaluateEndCondition val="B"/>
+          <InitialMode val="M"/>
+          <Locate Direction="A"/>
+          <Range Direction="A"/>
+          <VarRange/>
+          <TaskProperties>
+            <SelectionTable val="N"/>
+            <ConfirmUpdate CNFU="N"/>
+            <ConfirmCancel val="N"/>
+            <ErrorStrategy val="A"/>
+            <LockingStrategy val="M"/>
+            <CacheStrategy val="T"/>
+            <ForceRecordSuffix val="N"/>
+            <TransactionMode val="P"/>
+            <TransactionBegin val="N"/>
+            <PreloadView val="N"/>
+            <AllowEmptyDataview val="N"/>
+            <KeepCreatedContext val="N"/>
+          </TaskProperties>
+          <SIDE_WIN>
+            <AllowOptions val="N"/>
+            <AllowQuery val="Y"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="N"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="N"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="Y"/>
+            <RecordCycle val="Y"/>
+            <AllowEvents val="N"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
+            <AllowPrintingData val="N"/>
+          </SIDE_WIN>
+          <WIN>
+            <OpenTaskWindow val="N"/>
+            <CloseTaskWindow val="Y"/>
+            <ForegroundWindow val="Y"/>
+            <FlipFld val="N"/>
+            <RefreshTaskWindow ReturnValue="N"/>
+          </WIN>
+          <BOX>
+            <Direction val="V"/>
+          </BOX>
+        </Information>
+        <SQL_FORM DB="JobSchedule">
+          <SQL_STMT_U val="SELECT &#xD;&#xA;A.ConstructionCode AS PlanCode,&#xD;&#xA;C.ExpectedHouseRaisingDate AS JoutouDate,&#xD;&#xA;Kouzou.SpecificationDetailName AS KOUZOU,&#xD;&#xA;KouzouGaibu.ProductName AS KOUZOU_GAIBU,&#xD;&#xA;E.Floors,&#xD;&#xA;I.JobCode,&#xD;&#xA;I.InChargeCode,&#xD;&#xA;I.StartedDate,&#xD;&#xA;I.FinishedDate,&#xD;&#xA;ShipReq.RequestWeek AS Invoice,&#xD;&#xA;BasicSpecs3.SpecificationDetailName AS 耐水害住宅,&#xD;&#xA;SpecProd4.ProductName AS &quot;構造(防火)&quot;,&#xD;&#xA;BasicSpecsDetails.SpecificationDetailName AS FireProof,&#xD;&#xA;House.ConstructionAreaTsubo AS Tsubo,&#xD;&#xA;BasicSpecs2.SpecificationDetailName AS Kanabakari&#xD;&#xA;&#xD;&#xA;FROM HRDSQL.JobSchedule.dbo.ConstructionJobSchedules A &#xD;&#xA;INNER JOIN HRDSQL.HRDInformationService.dbo.Constructions B &#xD;&#xA;ON A.ConstructionCode = B.constructionCode&#xD;&#xA;&#xD;&#xA;INNER JOIN HRDSQL.HRDInformationService.dbo.ConstructionSchedule C &#xD;&#xA;ON A.ConstructionCode = C.ConstructionCode&#xD;&#xA;&#xD;&#xA;INNER JOIN HRDSQL.HRDInformationService.dbo.Houses E &#xD;&#xA;ON A.ConstructionCode = E.ConstructionCode&#xD;&#xA;&#xD;&#xA;INNER JOIN HRDSQL.HRDInformationService.dbo.BasicSpecificationDetails F &#xD;&#xA;ON A.ConstructionCode = F.ConstructionCode&#xD;&#xA;AND F.BasicSpecificationCode='0070'&#xD;&#xA;&#xD;&#xA;INNER JOIN HRDSQL.HRDInformationService.dbo.BasicSpecificationDetails G &#xD;&#xA;ON A.ConstructionCode =G.ConstructionCode&#xD;&#xA;AND G.BasicSpecificationCode ='0102'&#xD;&#xA;&#xD;&#xA;INNER JOIN HRDSQL.HRDInformationService.dbo.BasicSpecificationDetails H &#xD;&#xA;ON A.ConstructionCode =H.ConstructionCode&#xD;&#xA;AND H.BasicSpecificationCode ='0101'&#xD;&#xA;&#xD;&#xA;LEFT JOIN HRDSQL.JobSchedule.dbo.ConstructionJobSchedules I&#xD;&#xA;ON A.ConstructionCode = I.ConstructionCode&#xD;&#xA;&#xD;&#xA;LEFT JOIN HRDSQL.HrdInformationService.dbo.ShipmentRequests AS ShipReq&#xD;&#xA;ON A.ConstructionCode = ShipReq.ConstructionCode&#xD;&#xA;AND ShipReq.ConstructionMaterialCode = 'IQ'&#xD;&#xA;AND ShipReq.ConstructionMaterialDetailCode = '5'&#xD;&#xA;&#xD;&#xA;LEFT JOIN HRDSQL.HRDInformationService.dbo.BasicSpecificationDetails AS BasicSpecsDetails&#xD;&#xA;ON A.ConstructionCode = BasicSpecsDetails.ConstructionCode&#xD;&#xA;AND BasicSpecsDetails.BasicSpecificationCode = '0102'&#xD;&#xA;&#xD;&#xA;LEFT JOIN HRDSQL.HrdInformationService.dbo.SpecificationProductDetails KouzouGaibu&#xD;&#xA;ON A.ConstructionCode = KouzouGaibu.ConstructionCode&#xD;&#xA;AND KouzouGaibu.SpecificationType = '1'&#xD;&#xA;AND KouzouGaibu.Class1Code = '0020'&#xD;&#xA;AND KouzouGaibu.Class2Code = '0005'&#xD;&#xA;&#xD;&#xA;LEFT JOIN HRDSQL.HRDInformationService.dbo.Houses AS House&#xD;&#xA;ON A.ConstructionCode = House.ConstructionCode&#xD;&#xA;&#xD;&#xA;LEFT JOIN HRDSQL.HRDInformationService.dbo.BasicSpecificationDetails AS BasicSpecs2&#xD;&#xA;ON A.ConstructionCode = BasicSpecs2.ConstructionCode&#xD;&#xA;AND BasicSpecs2.BasicSpecificationCode = '0070'&#xD;&#xA;&#xD;&#xA;LEFT JOIN HRDSQL.HrdInformationService.dbo.BasicSpecificationDetails Kouzou&#xD;&#xA;ON A.ConstructionCode = Kouzou.ConstructionCode&#xD;&#xA;AND Kouzou.BasicSpecificationCode = '0080'&#xD;&#xA;&#xD;&#xA;LEFT JOIN HRDSQL.HRDInformationService.dbo.BasicSpecificationDetails AS BasicSpecs3&#xD;&#xA;ON A.ConstructionCode = BasicSpecs3.ConstructionCode&#xD;&#xA;AND BasicSpecs3.basicSpecificationCode = '0090'&#xD;&#xA;&#xD;&#xA;LEFT JOIN HRDSQL.HRDInformationService.dbo.SpecificationProductDetails AS SpecProd4&#xD;&#xA;ON A.ConstructionCode = SpecProd4.ConstructionCode&#xD;&#xA;AND SpecProd4.Class2Code = '0007'&#xD;&#xA;&#xD;&#xA;WHERE A.JobCode = ':1' AND convert(VARCHAR(10),A.FinishedDate,111) = ':2'&#xD;&#xA;AND I.JobCode = 'H22805'&#xD;&#xA;ORDER BY C.ExpectedHouseRaisingDate ASC"/>
+          <INARG>
+            <Arguments>
+              <Argument Variable="1">
+                <id val="15"/>
+              </Argument>
+              <Argument Variable="2">
+                <id val="16"/>
+              </Argument>
+            </Arguments>
+          </INARG>
+          <OUTARG>
+            <Arguments>
+              <Argument Variable="3">
+                <id val="1"/>
+              </Argument>
+              <Argument Variable="4">
+                <id val="2"/>
+              </Argument>
+              <Argument Variable="5">
+                <id val="3"/>
+              </Argument>
+              <Argument Variable="6">
+                <id val="17"/>
+              </Argument>
+              <Argument Variable="7">
+                <id val="18"/>
+              </Argument>
+              <Argument Variable="8">
+                <id val="4"/>
+              </Argument>
+              <Argument Variable="9">
+                <id val="5"/>
+              </Argument>
+              <Argument Variable="10">
+                <id val="6"/>
+              </Argument>
+              <Argument Variable="11">
+                <id val="7"/>
+              </Argument>
+              <Argument Variable="12">
+                <id val="8"/>
+              </Argument>
+              <Argument Variable="13">
+                <id val="9"/>
+              </Argument>
+              <Argument Variable="14">
+                <id val="10"/>
+              </Argument>
+              <Argument Variable="15">
+                <id val="11"/>
+              </Argument>
+              <Argument Variable="16">
+                <id val="19"/>
+              </Argument>
+              <Argument Variable="17">
+                <id val="20"/>
+              </Argument>
+              <Argument Variable="18">
+                <id val="12"/>
+              </Argument>
+              <Argument Variable="19">
+                <id val="13"/>
+              </Argument>
+              <Argument Variable="20">
+                <id val="14"/>
+              </Argument>
+            </Arguments>
+          </OUTARG>
+        </SQL_FORM>
+        <INT_RECOMP_INFO>
+          <v>23</v>
+        </INT_RECOMP_INFO>
+        <TaskLogic>
+          <LogicUnit id="1" propagate="78">
+            <Level val="R"/>
+            <Type val="M"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="1"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <_TotalVariabls val="22"/>
+            <_TotalVirtuals val="20"/>
+            <PRM_LEN val="2"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <LogicLines>
+              <LogicLine>
+                <DATAVIEW_SRC FlowIsn="15" Type="Q">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </DATAVIEW_SRC>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="107" FlowIsn="21" id="107">
+                  <Column val="1"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <_RecomputeIndex val="2"/>
+                  <_FormIndex val="2"/>
+                  <_ControlIndex val="2"/>
+                  <_OleSubformIdx val="2"/>
+                  <_TabbingOrderDspIndex val="2"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="108" FlowIsn="22" id="108">
+                  <Column val="2"/>
+                  <Type val="V"/>
+                  <IsParameter val="Y"/>
+                  <_RecomputeIndex val="2"/>
+                  <_FormIndex val="2"/>
+                  <_ControlIndex val="2"/>
+                  <_OleSubformIdx val="2"/>
+                  <_TabbingOrderDspIndex val="2"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="91" FlowIsn="1" id="91">
+                  <Column val="3"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeLength val="1"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="2"/>
+                  <_ControlIndex val="2"/>
+                  <_OleSubformIdx val="2"/>
+                  <_TabbingOrderDspIndex val="2"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="92" FlowIsn="2" id="92">
+                  <Column val="4"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="93" FlowIsn="3" id="93">
+                  <Column val="5"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="109" FlowIsn="43" id="109">
+                  <Column val="6"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="110" FlowIsn="61" id="110">
+                  <Column val="7"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="94" FlowIsn="4" id="94">
+                  <Column val="8"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="95" FlowIsn="5" id="95">
+                  <Column val="9"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="96" FlowIsn="6" id="96">
+                  <Column val="10"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="97" FlowIsn="7" id="97">
+                  <Column val="11"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="98" FlowIsn="8" id="98">
+                  <Column val="12"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="99" FlowIsn="9" id="99">
+                  <Column val="13"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="100" FlowIsn="10" id="100">
+                  <Column val="14"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="101" FlowIsn="11" id="101">
+                  <Column val="15"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="111" FlowIsn="79" id="111">
+                  <Column val="16"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="112" FlowIsn="80" id="112">
+                  <Column val="17"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="102" FlowIsn="12" id="102">
+                  <Column val="18"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="103" FlowIsn="13" id="103">
+                  <Column val="19"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="104" FlowIsn="14" id="104">
+                  <Column val="20"/>
+                  <Type val="V"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="16">
+                  <Type val="1"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <LNK Direction="A" EVL_CND="R" FlowIsn="17" Key="1" Mode="R" SortType="26" VIEW="21" VIEWS="2">
+                  <DB comp="-1" obj="67"/>
+                  <Expanded val="1"/>
+                  <Condition val="Y"/>
+                </LNK>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="105" FlowIsn="19" id="105">
+                  <Column val="1"/>
+                  <Type val="R"/>
+                  <IsParameter val="N"/>
+                  <Locate MAX="1" MIN="1"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="106" FlowIsn="20" id="106">
+                  <Column val="3"/>
+                  <Type val="R"/>
+                  <IsParameter val="N"/>
+                  <_RecomputeIndex val="1"/>
+                  <_FormIndex val="1"/>
+                  <_ControlIndex val="1"/>
+                  <_OleSubformIdx val="1"/>
+                  <_TabbingOrderDspIndex val="1"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <END_LINK FlowIsn="18"/>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="2" propagate="78">
+            <Level val="R"/>
+            <Type val="S"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="23"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <FormIO FlowIsn="23">
+                  <OperationType val="O"/>
+                  <Page val="A"/>
+                  <IODeviceInfo>
+                    <IoDeviceIndex val="1"/>
+                  </IODeviceInfo>
+                  <FormEntryInfo>
+                    <FormEntryIndex val="2"/>
+                  </FormEntryInfo>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </FormIO>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+        </TaskLogic>
+        <TaskForms>
+          <FormEntry _last_isn="29" _last_test_id="29" id="7">
+            <PropertyList model="FORM_GUI0">
+              <Width id="23" val="947"/>
+              <Height id="24" val="195"/>
+              <_Comment id="218"/>
+              <FormName id="311" valUnicode="sub_GenerateDataExtraction"/>
+              <_TabbingOrder id="318" val="1"/>
+            </PropertyList>
+          </FormEntry>
+        </TaskForms>
+        <TaskForms>
+          <FormEntry CLSS="1" id="8">
+            <PropertyList model="FORM_MERGE">
+              <FileName id="4" val="%WK_TEMPLATE%\DataExtraction_TEST_NEW.html"/>
+              <TagsTable id="7">
+                <MERGE_PARM FieldID="91" PIC_U="12" TXT_U="Data1" id="1"/>
+                <MERGE_PARM FieldID="106" PIC_U="30" TXT_U="Data2" id="2"/>
+                <MERGE_PARM FieldID="104" PIC_U="30" TXT_U="Data3" id="3"/>
+                <MERGE_PARM FieldID="92" PIC_U="####/##/##" TXT_U="Data4" id="4"/>
+                <MERGE_PARM FieldID="102" PIC_U="30" TXT_U="Data5" id="5"/>
+                <MERGE_PARM FieldID="94" PIC_U="N10" TXT_U="Data6" id="6"/>
+                <MERGE_PARM FieldID="103" PIC_U="N7.2" TXT_U="Data7" id="7"/>
+                <MERGE_PARM FieldID="101" PIC_U="N10" TXT_U="Data8" id="8"/>
+                <MERGE_PARM FieldID="95" PIC_U="6" TXT_U="Data9" id="9"/>
+                <MERGE_PARM FieldID="96" PIC_U="7" TXT_U="Data10" id="10"/>
+                <MERGE_PARM FieldID="97" PIC_U="####/##/##" TXT_U="Data11" id="11"/>
+                <MERGE_PARM FieldID="99" PIC_U="####/##/##" TXT_U="Data12" id="12"/>
+                <MERGE_PARM FieldID="109" PIC_U="255" TXT_U="Data13" id="13"/>
+                <MERGE_PARM FieldID="110" PIC_U="255" TXT_U="Data14" id="14"/>
+                <MERGE_PARM FieldID="111" PIC_U="255" TXT_U="Data15" id="15"/>
+                <MERGE_PARM FieldID="112" PIC_U="255" TXT_U="Data16" id="16"/>
+              </TagsTable>
+              <_Comment id="218"/>
+              <XmlOutput id="285"/>
+              <FormName id="311" valUnicode="Export"/>
+            </PropertyList>
+          </FormEntry>
+        </TaskForms>
+        <Expressions>
+          <Expression id="1">
+            <ExpSyntax val="{0,91}"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="2">
+            <ExpSyntax val="'%WK_TEMPLATE%\DataExtraction_CACA.xls'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+        </Expressions>
+      </Task>
+    </Programs>
+  </ProgramsRepository>
+
+</Application>

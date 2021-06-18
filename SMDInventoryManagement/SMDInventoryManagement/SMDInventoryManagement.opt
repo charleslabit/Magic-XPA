@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <DebugMode Val="N"/>
+
+  <RIAExecutionPlatform Val="Desktop"/>
+
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_ItemListCPU_Create"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="171"/>
+      <LineIndex Val="2"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="242"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="171"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_ItemListLS/OS_Create"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="171"/>
+      <LineIndex Val="2"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="261"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="171"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_ItemListIT_Create"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="171"/>
+      <LineIndex Val="18"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="125"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="171"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="m_NewStock.sub_ItemRegistration"/>
+      <HandlerId Val="15"/>
+      <OperationId Val="1520"/>
+      <LineIndex Val="61"/>
+      <HandlerDesc Val="Event:btn_Generate"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="167"/>
+      <Subtask Val="2"/>
+      <Type Val="1"/>
+      <Operation Val="1520"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_InsertItemList"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="23"/>
+      <LineIndex Val="2"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="332"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="23"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_ItemList_IT"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="8"/>
+      <LineIndex Val="4"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="127"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="8"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_ItemList_LS/OS_NEW"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="15"/>
+      <LineIndex Val="4"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="348"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="15"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_PrintSequence_LS_NEW.CountTotalRecord"/>
+      <HandlerId Val="2"/>
+      <OperationId Val="10"/>
+      <LineIndex Val="2"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="342"/>
+      <Subtask Val="4"/>
+      <Type Val="1"/>
+      <Operation Val="10"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_PrintSequence_OS_NEW"/>
+      <HandlerId Val="5"/>
+      <OperationId Val="106"/>
+      <LineIndex Val="4"/>
+      <HandlerDesc Val="Task Prefix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="341"/>
+      <Subtask Val="2"/>
+      <Type Val="1"/>
+      <Operation Val="106"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_PrintSequence_OS_NEW.CountTotalRecord"/>
+      <HandlerId Val="2"/>
+      <OperationId Val="10"/>
+      <LineIndex Val="2"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="341"/>
+      <Subtask Val="4"/>
+      <Type Val="1"/>
+      <Operation Val="10"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_PrintSequence_LS_NEW"/>
+      <HandlerId Val="5"/>
+      <OperationId Val="106"/>
+      <LineIndex Val="4"/>
+      <HandlerDesc Val="Task Prefix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="342"/>
+      <Subtask Val="2"/>
+      <Type Val="1"/>
+      <Operation Val="106"/>
+    </Breakpoint>
+  </Breakpoints>
+
+  <WatchListItems>
+    <RestData/>
+  </WatchListItems>
+
+</Application>

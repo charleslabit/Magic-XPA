@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="146.1" Name="Create Temporary">
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #5/Update/Exp"/>
+  </Task>
+
+</CheckerResult>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="179" Name="sub_QRGeneratorLS_NEW">
+    <Warning Desc="Image control must have either data or a default image file name" ID="WP0034" Location="Form #2/??: (Image Control)/Properties/Data"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #2/Expression"/>
+  </Task>
+
+</CheckerResult>

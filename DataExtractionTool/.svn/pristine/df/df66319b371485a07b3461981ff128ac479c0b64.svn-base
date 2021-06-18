@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=shift_jis">
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.2.3.2 (Windows)">
+	<meta name="created" content="0;0">
+	<meta name="changedby" content="smd">
+	<meta name="changed" content="20180206;105909000000000">
+	
+	<style type="text/css"><!-- 
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"ＭＳ Ｐゴシック"; font-size:x-small }
+		 -->
+	</style>
+	
+</head>
+
+<table>	
+
+<tr>
+<tr>
+<tr>
+		<td align="center" bgcolor="#B2B2B2"><b>追加発注番号</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>エアー出荷</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>リクエスト便</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>出荷先</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>お客様コード</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>発注日</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>備考</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>品番</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>数量</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>明細備考</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>2次出荷先宛名 </b></td>
+
+
+
+
+	</tr>
+<!$MGREPEAT>
+	<tr>
+		<td align="center"><!$MG_追加発注番号></td>
+
+		<td align="center"><!$MG_エアー出荷></td>
+
+		<td align="center"><!$MG_リクエスト便></td>
+
+		<td align="center"><!$MG_出荷先></td>
+
+		<td align="center"><!$MG_お客様コード></td>
+
+		<td align="center"><!$MG_発注日></td>
+		
+		<td align="center"><!$MG_備考></td>
+		
+		<td align="center"><!$MG_品番></td>
+
+		<td align="center"><!$MG_数量></td>
+
+		<td align="center"><!$MG_明細備考></td>
+
+		<td align="center"><!$MG_2次出荷先宛名></td>
+
+
+		
+
+		
+	</tr>
+<!$MGENDREPEAT>
+</table>
+<!-- ************************************************************************** -->
+</body>
+
+</html>

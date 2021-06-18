@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12050"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="4"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ComponentsRepository>
+    <Components>
+      <Component id="1" name="UserFunctionality">
+        <Description val="Handles the Range, Locate, Sort and Print Data internal events"/>
+        <MciFile val="UserFunctionality.eci"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="1"/>
+        <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
+      </Component>
+      <Component id="3" name="HRD_XPA_COMPONENTS">
+        <Description val="HRD_XPA_COMPONENTS"/>
+        <CompId val="3833510445-40563-18037-9A8BF161E"/>
+        <MciFile val="C:\XPA\XPAConfig\Components\HRD_XPA_COMPONENTS.eci"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <CABINET_FILE val="%XPA_COMPONENTS%"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="2"/>
+        <LastISN val="5"/>
+        <ComponentPrograms>
+          <Object>
+            <id val="5"/>
+            <ItemIsn val="1"/>
+            <PublicName val="SaveFileDialog"/>
+          </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="2"/>
+            <PublicName val="OpenFileDialog"/>
+          </Object>
+          <Object>
+            <id val="7"/>
+            <ItemIsn val="3"/>
+            <PublicName val="FolderBrowserDialog"/>
+          </Object>
+          <Object>
+            <id val="12"/>
+            <ItemIsn val="4"/>
+            <PublicName val="MessageBox"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="5"/>
+            <PublicName val="SendMail"/>
+          </Object>
+        </ComponentPrograms>
+      </Component>
+    </Components>
+  </ComponentsRepository>
+
+</Application>

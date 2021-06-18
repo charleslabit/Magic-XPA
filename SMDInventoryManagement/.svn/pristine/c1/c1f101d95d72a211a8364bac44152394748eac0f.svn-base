@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="176" Name="sub_ItemIT">
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Record Suffix/Line #2/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Record Suffix/Line #3/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Record Suffix/Line #4/Call Program/Properties/Arguments/Var"/>
+  </Task>
+
+</CheckerResult>

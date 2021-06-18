@@ -1,0 +1,1845 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12050"/>
+    <WithIsn val="Y"/>
+    <_InternalTask val="N"/>
+    <IsRoot val="N"/>
+    <InIndex val="N"/>
+  </Header>
+
+  <ProgramsRepository>
+    <Programs>
+      <Task MainProgram="N">
+        <Header Description="sub_ExportDataExtraction" ISN_2="1" LastIsn="17" id="472">
+          <ExecutionRight comp="-1"/>
+          <Resident val="N"/>
+          <SQL val="N"/>
+          <ReturnValue>
+            <ReturnValueAttr/>
+            <ParametersAttributes/>
+          </ReturnValue>
+          <SqlWhereExist val="N"/>
+          <TaskType val="B"/>
+          <External val="N"/>
+          <Offline val="N"/>
+          <FormType val="N"/>
+          <DotNetObjectExists val="N"/>
+          <LastModified _date="737473" _time="44134" date="2020/02/18" time="12:15:34"/>
+        </Header>
+        <ItemIsn val="3"/>
+        <Resource>
+          <Columns/>
+          <ColumnsLastIsn val="3"/>
+        </Resource>
+        <Information>
+          <Key>
+            <Mode val="N"/>
+          </Key>
+          <DB comp="-1"/>
+          <Sort>
+            <CLS val="A"/>
+          </Sort>
+          <ForceRecordDelete DEL="N"/>
+          <EndTaskCondition val="Y"/>
+          <EvaluateEndCondition val="A"/>
+          <InitialMode val="M"/>
+          <Locate Direction="A"/>
+          <Range Direction="A"/>
+          <VarRange/>
+          <TaskProperties>
+            <SelectionTable val="N"/>
+            <ConfirmUpdate CNFU="N"/>
+            <ConfirmCancel val="N"/>
+            <ErrorStrategy val="A"/>
+            <LockingStrategy val="I"/>
+            <CacheStrategy val="T"/>
+            <ForceRecordSuffix val="N"/>
+            <TransactionMode val="P"/>
+            <TransactionBegin val="T"/>
+            <PreloadView val="N"/>
+            <AllowEmptyDataview val="N"/>
+            <KeepCreatedContext val="N"/>
+          </TaskProperties>
+          <SIDE_WIN>
+            <AllowOptions val="N"/>
+            <AllowQuery val="Y"/>
+            <AllowModify val="Y"/>
+            <AllowCreate val="Y"/>
+            <AllowDelete val="Y"/>
+            <AllowLocate val="Y"/>
+            <AllowRange val="Y"/>
+            <AllowIndexChange val="Y"/>
+            <AllowSorting val="Y"/>
+            <AllowIOFiles val="Y"/>
+            <RecordCycle val="Y"/>
+            <AllowEvents val="Y"/>
+            <AllowIndexOptimization val="Y"/>
+            <AllowLocationInQuery val="Y"/>
+            <AllowPrintingData val="N"/>
+          </SIDE_WIN>
+          <WIN>
+            <OpenTaskWindow val="N"/>
+            <CloseTaskWindow val="Y"/>
+            <ForegroundWindow val="Y"/>
+            <FlipFld val="N"/>
+            <RefreshTaskWindow ReturnValue="N"/>
+          </WIN>
+          <BOX>
+            <Direction val="V"/>
+          </BOX>
+        </Information>
+        <TaskLogic>
+          <LogicUnit id="1" propagate="78">
+            <Level val="R"/>
+            <Type val="M"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="1"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <LogicLines>
+              <LogicLine>
+                <DATAVIEW_SRC FlowIsn="1" Type="M">
+                  <Condition val="N"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </DATAVIEW_SRC>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="4" propagate="78">
+            <Level val="K"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="2"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+          </LogicUnit>
+          <LogicUnit id="5" propagate="78">
+            <Level val="T"/>
+            <Type val="P"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="2"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <Evaluate FlowIsn="4">
+                  <Expression val="1"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="7">
+                  <Expression val="3"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="3" propagate="78">
+            <Level val="T"/>
+            <Type val="S"/>
+            <_DspTemplate val="0"/>
+            <_HeaderPosition val="4"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <Expanded val="1"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="10">
+                  <OperationType val="T"/>
+                  <TaskID comp="-1" obj="17"/>
+                  <Lock val="N"/>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="16">
+                  <Expression val="5"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="20">
+                  <Type val="2"/>
+                  <Text val="Pinalitan into DataExtraction_CACA ang dating WakugumiShitajiExtract"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="12">
+                  <Expression val="4"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+              <LogicLine>
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="14" IMG_DEF_CHG="Y" Image="I" Mode="W" TTL_DEF_CHG="Y" TXT="Success !" VR_DISP="B">
+                  <AppendToErrorLog val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </STP>
+              </LogicLine>
+              <LogicLine>
+                <Evaluate FlowIsn="5">
+                  <Expression val="2"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Evaluate>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
+        </TaskLogic>
+        <TaskForms>
+          <FormEntry id="1">
+            <PropertyList model="FORM_GUI0">
+              <_Comment id="218"/>
+              <FormName id="311" valUnicode="sub_ExportDataExtraction"/>
+            </PropertyList>
+          </FormEntry>
+        </TaskForms>
+        <Expressions>
+          <Expression id="1">
+            <ExpSyntax val="StatusBarSetText('Please Wait . . .')"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="5">
+            <ExpSyntax val="StatusBarSetText(' ')"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="3">
+            <ExpSyntax val="FileCopy(Translate('%WK_TEMPLATE%\WakugumiShitajiExtractTemplate.xls'),&#xD;&#xA;Translate('%WK_TEMPLATE%\WakugumiShitajiExtract.xls'))"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="4">
+            <ExpSyntax val="FileCopy(Translate('%WK_TEMPLATE%\DataExtraction_CACA.xls'),OSEnvGet('USERPROFILE')&amp;'\Desktop\WakugumiShitajiExtract'&amp;DStr(Date(),'YYYYMMDD')&amp;'.xls')"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="6">
+            <ExpSyntax val="FileDelete(OSEnvGet('USERPROFILE')&amp;'\Desktop\WakugumiShitajiExtract'&amp;DStr(Date(),'YYYYMMDD')&amp;'.xls')"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+        </Expressions>
+        <Task MainProgram="N">
+          <Header Description="Export" ISN_2="17" LastIsn="17" id="472">
+            <ExecutionRight comp="-1"/>
+            <Resident val="N"/>
+            <SQL val="N"/>
+            <ReturnValue>
+              <ReturnValueAttr/>
+              <ParametersAttributes/>
+            </ReturnValue>
+            <SqlWhereExist val="N"/>
+            <TaskType val="B"/>
+            <External val="N"/>
+            <FormType val="N"/>
+            <DotNetObjectExists val="N"/>
+            <LastModified _date="737468" _time="38679" date="2020/02/13" time="10:44:39"/>
+          </Header>
+          <ItemIsn val="12"/>
+          <Resource>
+            <Columns>
+              <Column id="14" name="App1">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="184"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="15" name="Book1">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="185"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="16" name="Sheet1">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="186"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="17" name="Range1">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="187"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="9" name="App2">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="184"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178" val="ExcelApplication"/>
+                </PropertyList>
+              </Column>
+              <Column id="10" name="Book2">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="185"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178" val="ExcelWorkbook"/>
+                </PropertyList>
+              </Column>
+              <Column id="11" name="Sheet2">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="186"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178" val="ExcelWorksheet"/>
+                </PropertyList>
+              </Column>
+              <Column id="12" name="Range2">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="187"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178" val="ExcelRange"/>
+                </PropertyList>
+              </Column>
+              <Column id="18" name="App3">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="184"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="19" name="Book3">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="185"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="20" name="Sheet3">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="186"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+              <Column id="21" name="Range3">
+                <PropertyList model="FIELD">
+                  <Model attr_obj="FIELD_BLOB" comp="-1" id="1" obj="187"/>
+                  <StoredAs id="173" val="29"/>
+                  <Size id="174" val="28"/>
+                  <Definition id="175" val="1"/>
+                  <DbColumnName id="178"/>
+                  <Type id="179"/>
+                  <UserType id="180"/>
+                </PropertyList>
+              </Column>
+            </Columns>
+            <ColumnsLastIsn val="39"/>
+          </Resource>
+          <Information>
+            <Key>
+              <Mode val="N"/>
+            </Key>
+            <DB comp="-1"/>
+            <Sort>
+              <CLS val="A"/>
+            </Sort>
+            <ForceRecordDelete DEL="N"/>
+            <EndTaskCondition val="Y"/>
+            <EvaluateEndCondition val="A"/>
+            <InitialMode val="E"/>
+            <Locate Direction="A"/>
+            <Range Direction="A"/>
+            <VarRange/>
+            <TaskProperties>
+              <SelectionTable val="N"/>
+              <ConfirmUpdate CNFU="N"/>
+              <ConfirmCancel val="N"/>
+              <ErrorStrategy val="A"/>
+              <LockingStrategy val="M"/>
+              <CacheStrategy val="T"/>
+              <ForceRecordSuffix val="N"/>
+              <TransactionMode val="P"/>
+              <TransactionBegin val="N"/>
+              <PreloadView val="N"/>
+              <AllowEmptyDataview val="N"/>
+              <KeepCreatedContext val="N"/>
+            </TaskProperties>
+            <SIDE_WIN>
+              <AllowOptions val="N"/>
+              <AllowQuery val="Y"/>
+              <AllowModify val="Y"/>
+              <AllowCreate val="Y"/>
+              <AllowDelete val="N"/>
+              <AllowLocate val="Y"/>
+              <AllowRange val="Y"/>
+              <AllowIndexChange val="N"/>
+              <AllowSorting val="N"/>
+              <AllowIOFiles val="Y"/>
+              <RecordCycle val="Y"/>
+              <AllowEvents val="Y"/>
+              <AllowIndexOptimization val="N"/>
+              <AllowLocationInQuery val="N"/>
+              <AllowPrintingData val="N"/>
+            </SIDE_WIN>
+            <WIN>
+              <OpenTaskWindow val="N"/>
+              <CloseTaskWindow val="Y"/>
+              <ForegroundWindow val="Y"/>
+              <FlipFld val="N"/>
+              <RefreshTaskWindow ReturnValue="N"/>
+            </WIN>
+            <BOX>
+              <Direction val="V"/>
+            </BOX>
+          </Information>
+          <TaskLogic>
+            <LogicUnit id="2" propagate="78">
+              <Level val="R"/>
+              <Type val="M"/>
+              <_DspTemplate val="0"/>
+              <_HeaderPosition val="1"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <_TotalVariabls val="12"/>
+              <_TotalVirtuals val="12"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <LogicLines>
+                <LogicLine>
+                  <DATAVIEW_SRC FlowIsn="2" Type="M">
+                    <Condition val="N"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </DATAVIEW_SRC>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="3">
+                    <Type val="1"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="4">
+                    <Type val="1"/>
+                    <Text val="Main Excel"/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="1" FlowIsn="5" id="1">
+                    <Column val="1"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="2" FlowIsn="6" id="2">
+                    <Column val="2"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="3" FlowIsn="7" id="3">
+                    <Column val="3"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="4" FlowIsn="8" id="4">
+                    <Column val="4"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="9">
+                    <Type val="1"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="5" FlowIsn="11" id="5">
+                    <Column val="5"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="6" FlowIsn="12" id="6">
+                    <Column val="6"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="7" FlowIsn="13" id="7">
+                    <Column val="7"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="8" FlowIsn="14" id="8">
+                    <Column val="8"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="15">
+                    <Type val="1"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="9" FlowIsn="17" id="9">
+                    <Column val="9"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="10" FlowIsn="18" id="10">
+                    <Column val="10"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="11" FlowIsn="19" id="11">
+                    <Column val="11"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Select FieldID="12" FlowIsn="20" id="12">
+                    <Column val="12"/>
+                    <Type val="V"/>
+                    <IsParameter val="N"/>
+                    <_RecomputeIndex val="1"/>
+                    <_FormIndex val="1"/>
+                    <_ControlIndex val="1"/>
+                    <_OleSubformIdx val="1"/>
+                    <_TabbingOrderDspIndex val="1"/>
+                    <DIFF_UPDATE val="T"/>
+                    <PartOfDataview val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Select>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="21">
+                    <Type val="1"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="3" propagate="78">
+              <Level val="K"/>
+              <_DspTemplate val="0"/>
+              <_HeaderPosition val="11"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </LogicUnit>
+            <LogicUnit id="4" propagate="78">
+              <Level val="T"/>
+              <Type val="S"/>
+              <_DspTemplate val="0"/>
+              <_HeaderPosition val="11"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Remark FlowIsn="22">
+                    <Type val="2"/>
+                    <Text val="WakugumiShitaji"/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Evaluate FlowIsn="23">
+                    <Expression val="9"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Evaluate>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="1" FlowIsn="24">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="1"/>
+                        <Variable val="2"/>
+                        <Skip val="Y"/>
+                        <Name val="Return Value"/>
+                        <Type val="16393"/>
+                        <VT_Type val="8"/>
+                        <TypeLibrary GUID="{00020813-0000-0000-C000-000000000046}" MAJOR="1" MINOR="4" name="Microsoft Excel 10.0 Object Library"/>
+                        <ObjectName CanCreate="1" GUID="{00020819-0000-0000-C000-000000000046}" name="Workbook"/>
+                      </Argument>
+                      <Argument>
+                        <id val="2"/>
+                        <Expression val="8"/>
+                        <Skip val="N"/>
+                        <Name val="Filename"/>
+                        <Type val="8"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="3"/>
+                        <Skip val="Y"/>
+                        <Name val="UpdateLinks"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="4"/>
+                        <Skip val="Y"/>
+                        <Name val="ReadOnly"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="5"/>
+                        <Skip val="Y"/>
+                        <Name val="Format"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="6"/>
+                        <Skip val="Y"/>
+                        <Name val="Password"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="7"/>
+                        <Skip val="Y"/>
+                        <Name val="WriteResPassword"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="8"/>
+                        <Skip val="Y"/>
+                        <Name val="IgnoreReadOnlyRecommended"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="9"/>
+                        <Skip val="Y"/>
+                        <Name val="Origin"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="10"/>
+                        <Skip val="Y"/>
+                        <Name val="Delimiter"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="11"/>
+                        <Skip val="Y"/>
+                        <Name val="Editable"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="12"/>
+                        <Skip val="Y"/>
+                        <Name val="Notify"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="13"/>
+                        <Skip val="Y"/>
+                        <Name val="Converter"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="14"/>
+                        <Skip val="Y"/>
+                        <Name val="AddToMru"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="15"/>
+                        <Skip val="Y"/>
+                        <Name val="Local"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="16"/>
+                        <Skip val="Y"/>
+                        <Name val="CorruptLoad"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <MethodName val="Workbooks.Open"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="M"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="2" FlowIsn="25">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="17"/>
+                        <Skip val="Y"/>
+                        <Name val="Return Value"/>
+                        <Type val="24"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <MethodName val="Activate"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="M"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="1" FlowIsn="26">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="18"/>
+                        <Expression val="4"/>
+                        <Skip val="N"/>
+                        <Name val="Value"/>
+                        <Type val="11"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="DisplayAlerts"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="S"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="1" FlowIsn="27">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="19"/>
+                        <Expression val="6"/>
+                        <Skip val="N"/>
+                        <Name val="Value"/>
+                        <Type val="11"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="Visible"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="S"/>
+                    <RetainFocus val="Y"/>
+                    <Disabled val="1"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="2" FlowIsn="28">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="20"/>
+                        <Variable val="3"/>
+                        <Skip val="N"/>
+                        <Name val="Return Value"/>
+                        <Type val="9"/>
+                        <VT_Type val="8"/>
+                        <TypeLibrary/>
+                        <ObjectName/>
+                      </Argument>
+                      <Argument>
+                        <id val="21"/>
+                        <Expression val="5"/>
+                        <Skip val="N"/>
+                        <Name val="Index"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="Worksheets.Item"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="G"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="29">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="3" FlowIsn="30">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="22"/>
+                        <Variable val="4"/>
+                        <Skip val="N"/>
+                        <Name val="Return Value"/>
+                        <Type val="16393"/>
+                        <VT_Type val="8"/>
+                        <TypeLibrary GUID="{00020813-0000-0000-C000-000000000046}" MAJOR="1" MINOR="4" name="Microsoft Excel 10.0 Object Library"/>
+                        <ObjectName CanCreate="1" GUID="{00020846-0000-0000-C000-000000000046}" name="Range"/>
+                      </Argument>
+                      <Argument>
+                        <id val="23"/>
+                        <Expression val="2"/>
+                        <Skip val="N"/>
+                        <Name val="Cell1"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="24"/>
+                        <Skip val="Y"/>
+                        <Name val="Cell2"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="Range"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="G"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="3" FlowIsn="31">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="25"/>
+                        <Skip val="Y"/>
+                        <Name val="Return Value"/>
+                        <Type val="24"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                      <Argument>
+                        <id val="26"/>
+                        <Skip val="Y"/>
+                        <Name val="Destination"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="27"/>
+                        <Skip val="Y"/>
+                        <Name val="Link"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <MethodName val="Paste"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="M"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="32">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="3" FlowIsn="33">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="28"/>
+                        <Variable val="4"/>
+                        <Skip val="N"/>
+                        <Name val="Return Value"/>
+                        <Type val="16393"/>
+                        <VT_Type val="8"/>
+                        <TypeLibrary GUID="{00020813-0000-0000-C000-000000000046}" MAJOR="1" MINOR="4" name="Microsoft Excel 10.0 Object Library"/>
+                        <ObjectName CanCreate="1" GUID="{00020846-0000-0000-C000-000000000046}" name="Range"/>
+                      </Argument>
+                      <Argument>
+                        <id val="29"/>
+                        <Expression val="7"/>
+                        <Skip val="N"/>
+                        <Name val="Cell1"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="30"/>
+                        <Skip val="Y"/>
+                        <Name val="Cell2"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="Range"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="G"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="4" FlowIsn="34">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="31"/>
+                        <Expression val="4"/>
+                        <Skip val="N"/>
+                        <Name val="Value"/>
+                        <Type val="12"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="WrapText"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="S"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="4" FlowIsn="35">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="32"/>
+                        <Skip val="Y"/>
+                        <Name val="Return Value"/>
+                        <Type val="12"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <MethodName val="EntireColumn.AutoFit"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="M"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="36">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="5" FlowIsn="37">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="33"/>
+                        <Skip val="Y"/>
+                        <Name val="Return Value"/>
+                        <Type val="24"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <MethodName val="Quit"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="M"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="2" FlowIsn="38">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="80"/>
+                        <Skip val="Y"/>
+                        <Name val="Return Value"/>
+                        <Type val="24"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <MethodName val="Save"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="M"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="1" FlowIsn="39">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="35"/>
+                        <Skip val="Y"/>
+                        <Name val="Return Value"/>
+                        <Type val="24"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <MethodName val="Quit"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="M"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="40">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="41">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="5" propagate="78">
+              <Level val="K"/>
+              <_DspTemplate val="0"/>
+              <_HeaderPosition val="53"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <TXT val="SHEET 1"/>
+            </LogicUnit>
+            <LogicUnit id="6" propagate="78">
+              <Level val="F"/>
+              <_DspTemplate val="0"/>
+              <_HeaderPosition val="53"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="F"/>
+                <PublicObject comp="-1"/>
+              </Event>
+              <TXT val="WakugumiShitajiExport"/>
+              <Expanded val="1"/>
+              <LogicLines>
+                <LogicLine>
+                  <Invoke FieldID2="5" FlowIsn="42">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="36"/>
+                        <Variable val="6"/>
+                        <Skip val="Y"/>
+                        <Name val="Return Value"/>
+                        <Type val="16393"/>
+                        <VT_Type val="8"/>
+                        <TypeLibrary GUID="{00020813-0000-0000-C000-000000000046}" MAJOR="1" MINOR="4" name="Microsoft Excel 10.0 Object Library"/>
+                        <ObjectName CanCreate="1" GUID="{00020819-0000-0000-C000-000000000046}" name="Workbook"/>
+                      </Argument>
+                      <Argument>
+                        <id val="37"/>
+                        <Expression val="1"/>
+                        <Skip val="N"/>
+                        <Name val="Filename"/>
+                        <Type val="8"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="38"/>
+                        <Expression val="4"/>
+                        <Skip val="Y"/>
+                        <Name val="UpdateLinks"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="39"/>
+                        <Expression val="4"/>
+                        <Skip val="Y"/>
+                        <Name val="ReadOnly"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="40"/>
+                        <Skip val="Y"/>
+                        <Name val="Format"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="41"/>
+                        <Skip val="Y"/>
+                        <Name val="Password"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="42"/>
+                        <Skip val="Y"/>
+                        <Name val="WriteResPassword"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="43"/>
+                        <Skip val="Y"/>
+                        <Name val="IgnoreReadOnlyRecommended"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="44"/>
+                        <Skip val="Y"/>
+                        <Name val="Origin"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="45"/>
+                        <Skip val="Y"/>
+                        <Name val="Delimiter"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="46"/>
+                        <Skip val="Y"/>
+                        <Name val="Editable"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="47"/>
+                        <Skip val="Y"/>
+                        <Name val="Notify"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="48"/>
+                        <Skip val="Y"/>
+                        <Name val="Converter"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="49"/>
+                        <Skip val="Y"/>
+                        <Name val="AddToMru"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="50"/>
+                        <Skip val="Y"/>
+                        <Name val="Local"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="51"/>
+                        <Skip val="Y"/>
+                        <Name val="CorruptLoad"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <MethodName val="Workbooks.Open"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="M"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="5" FlowIsn="43">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="52"/>
+                        <Expression val="4"/>
+                        <Skip val="N"/>
+                        <Name val="Value"/>
+                        <Type val="11"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="DisplayAlerts"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="S"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="5" FlowIsn="54">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="81"/>
+                        <Expression val="6"/>
+                        <Skip val="N"/>
+                        <Name val="Value"/>
+                        <Type val="11"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="Visible"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="S"/>
+                    <RetainFocus val="N"/>
+                    <Disabled val="1"/>
+                    <Condition val="Y"/>
+                    <Modifier val="S"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="6" FlowIsn="44">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="53"/>
+                        <Variable val="7"/>
+                        <Skip val="N"/>
+                        <Name val="Return Value"/>
+                        <Type val="9"/>
+                        <VT_Type val="8"/>
+                        <TypeLibrary/>
+                        <ObjectName/>
+                      </Argument>
+                      <Argument>
+                        <id val="54"/>
+                        <Expression val="5"/>
+                        <Skip val="N"/>
+                        <Name val="Index"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="Worksheets.Item"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="G"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="45">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="7" FlowIsn="46">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="55"/>
+                        <Variable val="8"/>
+                        <Skip val="N"/>
+                        <Name val="Return Value"/>
+                        <Type val="16393"/>
+                        <VT_Type val="8"/>
+                        <TypeLibrary GUID="{00020813-0000-0000-C000-000000000046}" MAJOR="1" MINOR="4" name="Microsoft Excel 10.0 Object Library"/>
+                        <ObjectName CanCreate="1" GUID="{00020846-0000-0000-C000-000000000046}" name="Range"/>
+                      </Argument>
+                      <Argument>
+                        <id val="56"/>
+                        <Expression val="2"/>
+                        <Skip val="N"/>
+                        <Name val="Cell1"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="57"/>
+                        <Skip val="Y"/>
+                        <Name val="Cell2"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="Range"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="G"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="8" FlowIsn="47">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="58"/>
+                        <Expression val="3"/>
+                        <Skip val="N"/>
+                        <Name val="Value"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="59"/>
+                        <Skip val="Y"/>
+                        <Name val="RangeValueDataType"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="Value"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="S"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="7" FlowIsn="48">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="60"/>
+                        <Expression val="5"/>
+                        <Skip val="N"/>
+                        <Name val="Value"/>
+                        <Type val="12"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="Cells.Borders.Value"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="S"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="49">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="7" FlowIsn="50">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="61"/>
+                        <Variable val="8"/>
+                        <Skip val="N"/>
+                        <Name val="Return Value"/>
+                        <Type val="16393"/>
+                        <VT_Type val="8"/>
+                        <TypeLibrary GUID="{00020813-0000-0000-C000-000000000046}" MAJOR="1" MINOR="4" name="Microsoft Excel 10.0 Object Library"/>
+                        <ObjectName CanCreate="1" GUID="{00020846-0000-0000-C000-000000000046}" name="Range"/>
+                      </Argument>
+                      <Argument>
+                        <id val="62"/>
+                        <Expression val="7"/>
+                        <Skip val="N"/>
+                        <Name val="Cell1"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                      <Argument>
+                        <id val="63"/>
+                        <Skip val="Y"/>
+                        <Name val="Cell2"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <PropertyName val="Range"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="G"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="6" FlowIsn="51">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="64"/>
+                        <Skip val="Y"/>
+                        <Name val="Return Value"/>
+                        <Type val="24"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                    </Arguments>
+                    <MethodName val="Save"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="M"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+                <LogicLine>
+                  <Remark FlowIsn="52">
+                    <Type val="2"/>
+                    <Text val=" "/>
+                  </Remark>
+                </LogicLine>
+                <LogicLine>
+                  <Invoke FieldID2="8" FlowIsn="53">
+                    <OperationType val="C"/>
+                    <TaskID comp="-1"/>
+                    <Lock val="N"/>
+                    <Arguments>
+                      <Argument>
+                        <id val="65"/>
+                        <Skip val="Y"/>
+                        <Name val="Return Value"/>
+                        <Type val="12"/>
+                        <VT_Type val="8"/>
+                      </Argument>
+                      <Argument>
+                        <id val="66"/>
+                        <Skip val="Y"/>
+                        <Name val="Destination"/>
+                        <Type val="12"/>
+                        <VT_Type val="10"/>
+                      </Argument>
+                    </Arguments>
+                    <MethodName val="Copy"/>
+                    <Wait val="Y"/>
+                    <SyncData val="N"/>
+                    <Option val="M"/>
+                    <RetainFocus val="Y"/>
+                    <Condition val="Y"/>
+                    <Modifier val="B"/>
+                    <Direction val="C"/>
+                  </Invoke>
+                </LogicLine>
+              </LogicLines>
+            </LogicUnit>
+            <LogicUnit id="7" propagate="78">
+              <Level val="K"/>
+              <_DspTemplate val="0"/>
+              <_HeaderPosition val="53"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </LogicUnit>
+            <LogicUnit id="8" propagate="78">
+              <Level val="K"/>
+              <_DspTemplate val="0"/>
+              <_HeaderPosition val="53"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </LogicUnit>
+            <LogicUnit id="9" propagate="78">
+              <Level val="K"/>
+              <_DspTemplate val="0"/>
+              <_HeaderPosition val="53"/>
+              <Scope val="S"/>
+              <EngineDirective val="S"/>
+              <ShowMessage val="Y"/>
+              <Condition val="89"/>
+              <Event>
+                <EventType val="S"/>
+                <PublicObject comp="-1"/>
+              </Event>
+            </LogicUnit>
+          </TaskLogic>
+          <TaskForms>
+            <FormEntry _last_test_id="17" id="2">
+              <PropertyList model="FORM_GUI0">
+                <Width id="23" val="711"/>
+                <Height id="24" val="195"/>
+                <_Comment id="218"/>
+                <FormName id="311" valUnicode="m_HemsCableDataExtraction"/>
+                <_TabbingOrder id="318" val="1"/>
+              </PropertyList>
+            </FormEntry>
+          </TaskForms>
+          <Expressions>
+            <Expression id="1">
+              <ExpSyntax val="Translate('%WK_TEMPLATE%\DataExtraction_CACA.xls')"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="2">
+              <ExpSyntax val="'A1'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="3">
+              <ExpSyntax val="'Date Created: ' &amp;DStr(Date(),'YYYY/MM/DD') &amp;' '&amp;TStr(Time(),'HH:MM')"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="4">
+              <ExpSyntax val="'FALSE'LOG"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="5">
+              <ExpSyntax val="1"/>
+              <ExpAttribute val="N"/>
+            </Expression>
+            <Expression id="6">
+              <ExpSyntax val="'TRUE'LOG"/>
+              <ExpAttribute val="B"/>
+            </Expression>
+            <Expression id="7">
+              <ExpSyntax val="'A:I'"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="8">
+              <ExpSyntax val="Translate('%WK_TEMPLATE%\WakugumiShitajiExtract.xls')"/>
+              <ExpAttribute val="A"/>
+            </Expression>
+            <Expression id="9">
+              <ExpSyntax val="WakugumiShitajiExport()"/>
+              <ExpAttribute val="*"/>
+            </Expression>
+          </Expressions>
+        </Task>
+      </Task>
+    </Programs>
+  </ProgramsRepository>
+
+</Application>

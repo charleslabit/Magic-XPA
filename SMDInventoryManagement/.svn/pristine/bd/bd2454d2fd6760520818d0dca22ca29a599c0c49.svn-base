@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="109.1.1" Name="Generate">
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #23/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #22/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #21/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #20/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #19/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #18/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #17/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #16/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #15/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #14/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #13/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #12/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #11/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #10/Expression"/>
+  </Task>
+
+</CheckerResult>

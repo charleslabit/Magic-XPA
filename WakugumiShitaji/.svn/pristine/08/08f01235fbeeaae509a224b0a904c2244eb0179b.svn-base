@@ -1,0 +1,270 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=shift_jis">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 11">
+<link rel=File-List href="DataExtraction_TEST_NEW_files/filelist.xml">
+<link rel=Edit-Time-Data href="DataExtraction_TEST_NEW_files/editdata.mso">
+<link rel=OLE-Object-Data href="DataExtraction_TEST_NEW_files/oledata.mso">
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:LastAuthor>hrd</o:LastAuthor>
+  <o:LastSaved>2020-08-17T07:27:08Z</o:LastSaved>
+  <o:Version>11.5606</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]-->
+<style>
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+@page
+	{margin:1.0in .75in 1.0in .75in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.style0
+	{mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"ＭＳ Ｐゴシック", monospace;
+	mso-font-charset:128;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:Normal;
+	mso-style-id:0;}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"ＭＳ Ｐゴシック", monospace;
+	mso-font-charset:128;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	mso-protection:locked visible;
+	white-space:nowrap;
+	mso-rotate:0;}
+.xl24
+	{mso-style-parent:style0;
+	font-size:10.0pt;}
+.xl25
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-weight:700;
+	text-align:center;
+	border:.5pt solid windowtext;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl26
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	font-weight:700;
+	text-align:center;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	background:silver;
+	mso-pattern:auto none;
+	white-space:normal;}
+.xl27
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl28
+	{mso-style-parent:style0;
+	font-size:10.0pt;
+	text-align:center;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	white-space:normal;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:6.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"ＭＳ Ｐゴシック", monospace;
+	mso-font-charset:128;
+	mso-char-type:katakana;
+	display:none;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>DataExtraction_TEST_NEW</x:Name>
+    <x:WorksheetOptions>
+     <x:DefaultRowHeight>270</x:DefaultRowHeight>
+     <x:Unsynced/>
+     <x:Print>
+      <x:ValidPrinterInfo/>
+      <x:HorizontalResolution>600</x:HorizontalResolution>
+      <x:VerticalResolution>600</x:VerticalResolution>
+     </x:Print>
+     <x:Selected/>
+     <x:DoNotDisplayGridlines/>
+     <x:ProtectContents>False</x:ProtectContents>
+     <x:ProtectObjects>False</x:ProtectObjects>
+     <x:ProtectScenarios>False</x:ProtectScenarios>
+    </x:WorksheetOptions>
+   </x:ExcelWorksheet>
+  </x:ExcelWorksheets>
+  <x:WindowHeight>12150</x:WindowHeight>
+  <x:WindowWidth>18180</x:WindowWidth>
+  <x:WindowTopX>480</x:WindowTopX>
+  <x:WindowTopY>60</x:WindowTopY>
+  <x:ProtectStructure>False</x:ProtectStructure>
+  <x:ProtectWindows>False</x:ProtectWindows>
+ </x:ExcelWorkbook>
+</xml><![endif]-->
+<meta name=created content="0;0">
+<meta name=changedby content=smd>
+<meta name=changed content="20180206;105909000000000">
+</head>
+
+<body link=blue vlink=purple class=xl24>
+
+<table x:str border=0 cellpadding=0 cellspacing=0 width=1485 style='border-collapse:
+ collapse;table-layout:fixed;width:1115pt'>
+ <col class=xl24 width=172 style='mso-width-source:userset;mso-width-alt:5504;
+ width:129pt'>
+ <col class=xl24 width=89 style='mso-width-source:userset;mso-width-alt:2848;
+ width:67pt'>
+ <col class=xl24 width=99 style='mso-width-source:userset;mso-width-alt:3168;
+ width:74pt'>
+ <col class=xl24 width=94 style='mso-width-source:userset;mso-width-alt:3008;
+ width:71pt'>
+ <col class=xl24 width=222 span=2 style='mso-width-source:userset;mso-width-alt:
+ 7104;width:167pt'>
+ <col class=xl24 width=88 style='mso-width-source:userset;mso-width-alt:2816;
+ width:66pt'>
+ <col class=xl24 width=53 style='mso-width-source:userset;mso-width-alt:1696;
+ width:40pt'>
+ <col class=xl24 width=51 style='mso-width-source:userset;mso-width-alt:1632;
+ width:38pt'>
+ <col class=xl24 width=59 style='mso-width-source:userset;mso-width-alt:1888;
+ width:44pt'>
+ <col class=xl24 width=68 style='mso-width-source:userset;mso-width-alt:2176;
+ width:51pt'>
+ <col class=xl24 width=70 style='mso-width-source:userset;mso-width-alt:2240;
+ width:53pt'>
+ <col class=xl24 width=99 span=2 style='mso-width-source:userset;mso-width-alt:
+ 3168;width:74pt'>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 class=xl24 width=172 style='height:13.5pt;width:129pt'></td>
+  <td class=xl24 width=89 style='width:67pt'></td>
+  <td class=xl24 width=99 style='width:74pt'></td>
+  <td class=xl24 width=94 style='width:71pt'></td>
+  <td class=xl24 width=222 style='width:167pt'></td>
+  <td class=xl24 width=222 style='width:167pt'></td>
+  <td class=xl24 width=88 style='width:66pt'></td>
+  <td class=xl24 width=53 style='width:40pt'></td>
+  <td class=xl24 width=51 style='width:38pt'></td>
+  <td class=xl24 width=59 style='width:44pt'></td>
+  <td class=xl24 width=68 style='width:51pt'></td>
+  <td class=xl24 width=70 style='width:53pt'></td>
+  <td class=xl24 width=99 style='width:74pt'></td>
+  <td class=xl24 width=99 style='width:74pt'></td>
+ </tr>
+ <tr height=18 style='height:13.5pt'>
+  <td height=18 colspan=14 class=xl24 style='height:13.5pt;mso-ignore:colspan'></td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl25 width=172 style='height:13.5pt;width:129pt'>PlanCode</td>
+  <td class=xl26 width=89 style='width:67pt'>House Type</td>
+  <td class=xl26 width=99 style='width:74pt'>KANABAKARI</td>
+  <td class=xl26 width=94 style='width:71pt'>Joutou Date</td>
+  <td class=xl26 width=222 style='width:167pt'>KOUZOU</td>
+  <td class=xl26 width=222 style='width:167pt'>KOUZOU GAIBU</td>
+  <td class=xl26 width=88 style='width:66pt'>FIREPROOF</td>
+  <td class=xl26 width=53 style='width:40pt'>Floors</td>
+  <td class=xl26 width=51 style='width:38pt'>Tsubo</td>
+  <td class=xl26 width=59 style='width:44pt'>Invoice</td>
+  <td class=xl26 width=68 style='width:51pt'>JobCode</td>
+  <td class=xl26 width=70 style='width:53pt'>InCharge</td>
+  <td class=xl26 width=99 style='width:74pt'>Start</td>
+  <td class=xl26 width=99 style='width:74pt'>Finish</td>
+ </tr>
+ <!$MGREPEAT>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+  <td height=18 class=xl27 width=172 style='height:13.5pt;width:129pt'><!$MG_Data1></td>
+  <td class=xl28 width=89 style='width:67pt'><!$MG_Data2></td>
+  <td class=xl28 width=99 style='width:74pt'><!$MG_Data3></td>
+  <td class=xl28 width=94 style='width:71pt'><!$MG_Data4></td>
+  <td class=xl28 width=222 style='width:167pt'><!$MG_Data13></td>
+  <td class=xl28 width=222 style='width:167pt'><!$MG_Data14></td>
+  <td class=xl28 width=88 style='width:66pt'><!$MG_Data5></td>
+  <td class=xl28 width=53 style='width:40pt'><!$MG_Data6></td>
+  <td class=xl28 width=51 style='width:38pt'><!$MG_Data7></td>
+  <td class=xl28 width=59 style='width:44pt'><!$MG_Data8></td>
+  <td class=xl28 width=68 style='width:51pt'><!$MG_Data9></td>
+  <td class=xl28 width=70 style='width:53pt'><!$MG_Data10></td>
+  <td class=xl28 width=99 style='width:74pt'><!$MG_Data11></td>
+  <td class=xl28 width=99 style='width:74pt'><!$MG_Data12></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=172 style='width:129pt'></td>
+  <td width=89 style='width:67pt'></td>
+  <td width=99 style='width:74pt'></td>
+  <td width=94 style='width:71pt'></td>
+  <td width=222 style='width:167pt'></td>
+  <td width=222 style='width:167pt'></td>
+  <td width=88 style='width:66pt'></td>
+  <td width=53 style='width:40pt'></td>
+  <td width=51 style='width:38pt'></td>
+  <td width=59 style='width:44pt'></td>
+  <td width=68 style='width:51pt'></td>
+  <td width=70 style='width:53pt'></td>
+  <td width=99 style='width:74pt'></td>
+  <td width=99 style='width:74pt'></td>
+ </tr>
+ <![endif]><!$MGENDREPEAT>
+</table>
+
+<!-- ************************************************************************** -->
+</body>
+
+</html>

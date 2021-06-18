@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12050"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="6"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <ComponentsRepository>
+    <Components>
+      <Component id="1" name="UserFunctionality">
+        <Description val="Handles the Range, Locate, Sort and Print Data internal events"/>
+        <MciFile val="UserFunctionality.eci"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="1"/>
+        <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
+      </Component>
+      <Component id="3" name="HRD_XPA_COMPONENTS">
+        <Description val="HRD_XPA_COMPONENTS"/>
+        <CompId val="3833510445-40563-18037-9A8BF161E"/>
+        <MciFile val="C:\XPA\XPAConfig\Components\HRD_XPA_COMPONENTS.eci"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <CABINET_FILE val="%XPA_COMPONENTS%"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="2"/>
+        <LastISN val="5"/>
+        <ComponentPrograms>
+          <Object>
+            <id val="5"/>
+            <ItemIsn val="1"/>
+            <PublicName val="SaveFileDialog"/>
+          </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="2"/>
+            <PublicName val="OpenFileDialog"/>
+          </Object>
+          <Object>
+            <id val="7"/>
+            <ItemIsn val="3"/>
+            <PublicName val="FolderBrowserDialog"/>
+          </Object>
+          <Object>
+            <id val="12"/>
+            <ItemIsn val="4"/>
+            <PublicName val="MessageBox"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="5"/>
+            <PublicName val="SendMail"/>
+          </Object>
+        </ComponentPrograms>
+      </Component>
+      <Component id="4" name="System.Windows.Forms">
+        <Description val="System.Windows.Forms"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="-1"/>
+        <LastISN val="5"/>
+        <AssemblyName val="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component id="5" name="System.Data">
+        <Description val="System.Data"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="-1"/>
+        <AssemblyName val="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component id="6" name="System.Xml">
+        <Description val="System.Xml"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="-1"/>
+        <AssemblyName val="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+    </Components>
+    <Aliases LastIsnAliases="1">
+      <Alias id="1">
+        <name val="Forms"/>
+        <DotNetType val="System.Windows.Forms"/>
+      </Alias>
+    </Aliases>
+  </ComponentsRepository>
+
+</Application>

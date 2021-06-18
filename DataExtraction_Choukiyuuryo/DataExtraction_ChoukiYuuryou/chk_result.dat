@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="95" Name="m_ChoukiYuuryou"/>
+
+  <Task ID="95.2" Name="Sheet 1 Export">
+    <Error Desc="Problem opening the template file - " ID="EP0081" Location="Form #4/Properties/File name"/>
+  </Task>
+
+</CheckerResult>

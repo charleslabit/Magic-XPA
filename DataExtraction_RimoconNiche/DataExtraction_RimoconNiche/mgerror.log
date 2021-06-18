@@ -1,0 +1,4 @@
+﻿ <379627360688370432> 29/02/2020 09:40:43.776     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_RimoconNiche.Load
+ <379627360688370432> 29/02/2020 09:40:43.792     [Error  ] - HRDSQL6 : The conversion of a varchar data type to a datetime data type resulted in an out-of-range value., program: m_RimoconNiche.Load
+ <379627360688370432> 29/02/2020 09:40:53.920     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_RimoconNiche.Sheet 1 Export
+ <379627360688370432> 29/02/2020 09:40:53.935     [Error  ] - HRDSQL6 : Invalid object name 'W_Rimocon_Niche_7'., program: m_RimoconNiche.Sheet 1 Export

@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=shift_jis">
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.2.3.2 (Windows)">
+	<meta name="created" content="0;0">
+	<meta name="changedby" content="smd">
+	<meta name="changed" content="20180206;105909000000000">
+	
+	<style type="text/css"><!-- 
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"ＭＳ Ｐゴシック"; font-size:x-small }
+		 -->
+	</style>
+	
+</head>
+
+<table>	
+
+<tr>
+<tr>
+<tr>
+		<td align="center" bgcolor="#B2B2B2"><b>ConstructionCode</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>HouseType</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Plan Type</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>Kanabakari</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>Kakou Irai</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Shiyousho Joutou</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Joutou</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Floor</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>Hokkaido</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Tsubo</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Fire Proof</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>Gousetsu</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>Gaiheki Fin</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Received Date</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Status</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>Estimator Finished Date</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Estimator Pending Date</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Estimator</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>Checker Finished Date</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>Checker Pending Date</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Checker</b></td>
+
+		<td align="center" bgcolor="#B2B2B2"><b>Reason</b></td>
+		
+		<td align="center" bgcolor="#B2B2B2"><b>Remarks</b></td>
+
+
+	</tr>
+<!$MGREPEAT>
+	<tr>
+		<td align="center"><!$MG_Data1></td>
+
+		<td align="center"><!$MG_Data2></td>
+
+		<td align="center"><!$MG_Data3></td>
+
+		<td align="center"><!$MG_Data4></td>
+
+		<td align="center"><!$MG_Data5></td>
+
+		<td align="center"><!$MG_Data6></td>
+		
+		<td align="center"><!$MG_Data7></td>
+		
+		<td align="center"><!$MG_Data8></td>
+
+		<td align="center"><!$MG_Data9></td>
+
+		<td align="center"><!$MG_Data10></td>
+
+		<td align="center"><!$MG_Data11></td>
+
+		<td align="center"><!$MG_Data12></td>
+
+		<td align="center"><!$MG_Data13></td>
+		
+		<td align="center"><!$MG_Data14></td>
+		
+		<td align="center"><!$MG_Data15></td>
+
+		<td align="center"><!$MG_Data16></td>
+
+		<td align="center"><!$MG_Data17></td>
+
+		<td align="center"><!$MG_Data18></td>
+
+		<td align="center"><!$MG_Data19></td>
+
+		<td align="center"><!$MG_Data20></td>
+		
+		<td align="center"><!$MG_Data21></td>
+		
+		<td align="center"><!$MG_Data22></td>
+
+		<td align="center"><!$MG_Data23></td>
+
+		
+	</tr>
+<!$MGENDREPEAT>
+</table>
+<!-- ************************************************************************** -->
+</body>
+
+</html>

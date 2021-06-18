@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="183.2.2" Name="sub_MergeData">
+    <Error Desc="Invalid I/O file" ID="EP0198" Location="Record Suffix/Line #2/Form Output/I/O"/>
+    <Error Desc="Invalid form" ID="EP0199" Location="Record Suffix/Line #2/Form Output/Form"/>
+  </Task>
+
+</CheckerResult>

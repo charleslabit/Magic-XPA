@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="113" Name="m_NewStock">
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Save/Line #46/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Save/Line #47/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Save/Line #51/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Save/Line #52/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Save/Line #58/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Save/Line #59/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Save/Line #62/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Save/Line #63/Call Program/Properties/Arguments/Var"/>
+  </Task>
+
+</CheckerResult>

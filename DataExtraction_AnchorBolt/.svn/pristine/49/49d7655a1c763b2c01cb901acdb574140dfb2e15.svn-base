@@ -1,0 +1,494 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+			xmlns:x="urn:schemas-microsoft-com:office:excel"
+			xmlns="http://www.w3.org/TR/REC-html40">
+
+	<head>
+		<meta http-equiv=Content-Type content="text/html; charset=shift_jis">
+		<meta name=ProgId content=Excel.Sheet>
+		<meta name=Generator content="Microsoft Excel 11">
+		<link rel=File-List href="AnchorBolt_Template_files/filelist.xml">
+		<link rel=Edit-Time-Data href="AnchorBolt_Template_files/editdata.mso">
+		<link rel=OLE-Object-Data href="AnchorBolt_Template_files/oledata.mso">
+		
+		<!--[if gte mso 9]>
+			<xml>
+				<o:DocumentProperties>
+					<o:Author>Administrator</o:Author>
+					<o:LastAuthor>Administrator</o:LastAuthor>
+					<o:Created>1996-10-14T23:33:28Z</o:Created>
+					<o:LastSaved>2020-08-12T23:23:20Z</o:LastSaved>
+					<o:Version>11.5606</o:Version>
+				</o:DocumentProperties>
+			</xml>
+		<![endif]-->
+		
+		<style>
+<!--
+		table
+			{mso-displayed-decimal-separator:"\.";
+			mso-displayed-thousand-separator:"\,";}
+		@page
+			{margin:1.0in .75in 1.0in .75in;
+			mso-header-margin:.5in;
+			mso-footer-margin:.5in;}
+		tr
+			{mso-height-source:auto;
+			mso-ruby-visibility:none;}
+		col
+			{mso-width-source:auto;
+			mso-ruby-visibility:none;}
+		br
+			{mso-data-placement:same-cell;}
+		.style0
+			{mso-number-format:General;
+			text-align:general;
+			vertical-align:bottom;
+			white-space:nowrap;
+			mso-rotate:0;
+			mso-background-source:auto;
+			mso-pattern:auto;
+			color:windowtext;
+			font-size:10.0pt;
+			font-weight:400;
+			font-style:normal;
+			text-decoration:none;
+			font-family:Arial, sans-serif;
+			mso-font-charset:0;
+			border:none;
+			mso-protection:locked visible;
+			mso-style-name:Normal;
+			mso-style-id:0;}
+		td
+			{mso-style-parent:style0;
+			padding-top:1px;
+			padding-right:1px;
+			padding-left:1px;
+			mso-ignore:padding;
+			color:windowtext;
+			font-size:10.0pt;
+			font-weight:400;
+			font-style:normal;
+			text-decoration:none;
+			font-family:Arial, sans-serif;
+			mso-font-charset:0;
+			mso-number-format:General;
+			text-align:general;
+			vertical-align:bottom;
+			border:none;
+			mso-background-source:auto;
+			mso-pattern:auto;
+			mso-protection:locked visible;
+			white-space:nowrap;
+			mso-rotate:0;}
+		.xl24
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;}
+		.xl25
+			{mso-style-parent:style0;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			border-top:1.0pt solid windowtext;
+			border-right:.5pt solid windowtext;
+			border-bottom:.5pt solid windowtext;
+			border-left:.5pt solid windowtext;}
+		.xl26
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:1.0pt solid windowtext;
+			border-right:.5pt solid windowtext;
+			border-bottom:.5pt solid windowtext;
+			border-left:1.0pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;
+			white-space:normal;}
+		.xl27
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:1.0pt solid windowtext;
+			border-right:.5pt solid windowtext;
+			border-bottom:.5pt solid windowtext;
+			border-left:.5pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;
+			white-space:normal;}
+		.xl28
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:1.0pt solid windowtext;
+			border-right:1.0pt solid windowtext;
+			border-bottom:.5pt solid windowtext;
+			border-left:.5pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;
+			white-space:normal;}
+		.xl29
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:.5pt solid windowtext;
+			border-right:.5pt solid windowtext;
+			border-bottom:1.0pt solid windowtext;
+			border-left:1.0pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;
+			white-space:normal;}
+		.xl30
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:.5pt solid windowtext;
+			border-right:.5pt solid windowtext;
+			border-bottom:1.0pt solid windowtext;
+			border-left:.5pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;
+			white-space:normal;}
+		.xl31
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:none;
+			border-right:1.0pt solid windowtext;
+			border-bottom:1.0pt solid windowtext;
+			border-left:none;
+			background:silver;
+			mso-pattern:auto none;
+			white-space:normal;}
+		.xl32
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:none;
+			border-right:.5pt solid windowtext;
+			border-bottom:1.0pt solid windowtext;
+			border-left:1.0pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;
+			white-space:normal;}
+		.xl33
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:none;
+			border-right:.5pt solid windowtext;
+			border-bottom:1.0pt solid windowtext;
+			border-left:none;
+			background:silver;
+			mso-pattern:auto none;
+			white-space:normal;}
+		.xl34
+			{mso-style-parent:style0;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			mso-number-format:"yyyy\/m\/d\\ h\:mm\;\@";}
+		.xl35
+			{mso-style-parent:style0;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			mso-number-format:"yyyy\/m\/d\;\@";
+			border-top:1.0pt solid windowtext;
+			border-right:.5pt solid windowtext;
+			border-bottom:.5pt solid windowtext;
+			border-left:.5pt solid windowtext;}
+		.xl36
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			border-top:1.0pt solid windowtext;
+			border-right:none;
+			border-bottom:1.0pt solid windowtext;
+			border-left:1.0pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;}
+		.xl37
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			border-top:1.0pt solid windowtext;
+			border-right:none;
+			border-bottom:1.0pt solid windowtext;
+			border-left:none;
+			background:silver;
+			mso-pattern:auto none;}
+		.xl38
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			border-top:1.0pt solid windowtext;
+			border-right:1.0pt solid windowtext;
+			border-bottom:1.0pt solid windowtext;
+			border-left:none;
+			background:silver;
+			mso-pattern:auto none;}
+		.xl39
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:1.0pt solid windowtext;
+			border-right:none;
+			border-bottom:none;
+			border-left:1.0pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;}
+		.xl40
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:none;
+			border-right:none;
+			border-bottom:none;
+			border-left:1.0pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;}
+		.xl41
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:none;
+			border-right:none;
+			border-bottom:1.0pt solid windowtext;
+			border-left:1.0pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;}
+		.xl42
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:1.0pt solid windowtext;
+			border-right:1.0pt solid windowtext;
+			border-bottom:none;
+			border-left:1.0pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;}
+		.xl43
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:none;
+			border-right:1.0pt solid windowtext;
+			border-bottom:none;
+			border-left:1.0pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;}
+		.xl44
+			{mso-style-parent:style0;
+			font-weight:700;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			text-align:center;
+			vertical-align:middle;
+			border-top:none;
+			border-right:1.0pt solid windowtext;
+			border-bottom:1.0pt solid windowtext;
+			border-left:1.0pt solid windowtext;
+			background:silver;
+			mso-pattern:auto none;}
+		ruby
+			{ruby-align:left;}
+		rt
+			{color:windowtext;
+			font-size:6.0pt;
+			font-weight:400;
+			font-style:normal;
+			text-decoration:none;
+			font-family:"ＭＳ Ｐゴシック", monospace;
+			mso-font-charset:128;
+			mso-char-type:katakana;
+			display:none;}
+-->
+		</style>
+		
+		<!--[if gte mso 9]>
+			<xml>
+				<x:ExcelWorkbook>
+					<x:ExcelWorksheets>
+						<x:ExcelWorksheet>
+							<x:Name>AnchorBolt</x:Name>
+							<x:WorksheetOptions>
+								<x:Print>
+									<x:ValidPrinterInfo/>
+									<x:PaperSizeIndex>9</x:PaperSizeIndex>
+									<x:HorizontalResolution>600</x:HorizontalResolution>
+									<x:VerticalResolution>600</x:VerticalResolution>
+								</x:Print>
+								<x:Selected/>
+								<x:FreezePanes/>
+								<x:FrozenNoSplit/>
+								<x:SplitHorizontal>5</x:SplitHorizontal>
+								<x:TopRowBottomPane>5</x:TopRowBottomPane>
+								<x:SplitVertical>1</x:SplitVertical>
+								<x:LeftColumnRightPane>1</x:LeftColumnRightPane>
+								<x:ActivePane>0</x:ActivePane>
+								<x:Panes>
+									<x:Pane>
+										<x:Number>3</x:Number>
+									</x:Pane>
+									<x:Pane>
+										<x:Number>1</x:Number>
+									</x:Pane>
+									<x:Pane>
+										<x:Number>2</x:Number>
+									</x:Pane>
+									<x:Pane>
+										<x:Number>0</x:Number>
+										<x:ActiveRow>0</x:ActiveRow>
+										<x:ActiveCol>0</x:ActiveCol>
+									</x:Pane>
+								</x:Panes>
+								<x:ProtectContents>False</x:ProtectContents>
+								<x:ProtectObjects>False</x:ProtectObjects>
+								<x:ProtectScenarios>False</x:ProtectScenarios>
+							</x:WorksheetOptions>
+						</x:ExcelWorksheet>
+					</x:ExcelWorksheets>
+					<x:WindowHeight>9300</x:WindowHeight>
+					<x:WindowWidth>15135</x:WindowWidth>
+					<x:WindowTopX>120</x:WindowTopX>
+					<x:WindowTopY>120</x:WindowTopY>
+					<x:AcceptLabelsInFormulas/>
+					<x:ProtectStructure>False</x:ProtectStructure>
+					<x:ProtectWindows>False</x:ProtectWindows>
+				</x:ExcelWorkbook>
+			</xml>
+		<![endif]-->
+		
+	</head>
+
+	<body link=blue vlink=purple>
+
+		<table x:str border=0 cellpadding=0 cellspacing=0 width=2666 style='border-collapse:collapse;table-layout:fixed;width:2003pt'>
+			<col width=110 style='mso-width-source:userset;mso-width-alt:4022;width:83pt'>
+			<col width=290 style='mso-width-source:userset;mso-width-alt:10605;width:218pt'>
+			<col width=110 span=2 style='mso-width-source:userset;mso-width-alt:4022;width:83pt'>
+			<col width=313 span=3 style='mso-width-source:userset;mso-width-alt:11446;width:235pt'>
+			<col width=369 span=3 style='mso-width-source:userset;mso-width-alt:13494;width:277pt'>
+			<col width=145 span=246 style='mso-width-source:userset;mso-width-alt:5302;width:109pt'>
+		
+			<tr height=17 style='height:12.75pt'>
+				<td height=17 class=xl24 width=110 style='height:12.75pt;width:83pt'>Date Created:</td>
+				<td class=xl34 x:num width=290 style='width:218pt'><left><!$MG_DateCreated></left></td>
+				<td width=110 style='width:83pt'></td>
+				<td width=110 style='width:83pt'></td>
+				<td width=313 style='width:235pt'></td>
+				<td width=313 style='width:235pt'></td>
+				<td width=313 style='width:235pt'></td>
+				<td width=369 style='width:277pt'></td>
+				<td width=369 style='width:277pt'></td>
+				<td width=369 style='width:277pt'></td>
+			</tr>
+		
+			<tr height=18 style='height:13.5pt'>
+				<td height=18 colspan=10 style='height:13.5pt;mso-ignore:colspan'></td>
+			</tr>
+		
+			<tr height=18 style='height:13.5pt'>
+				<td rowspan=3 height=155 class=xl39 style='border-bottom:1.0pt solid black;height:116.25pt'>Customer Code</td>
+				<td rowspan=3 class=xl42 style='border-bottom:1.0pt solid black'>House Type</td>
+				<td rowspan=3 class=xl42 style='border-bottom:1.0pt solid black'>Kakou Irai Date</td>
+				<td rowspan=3 class=xl42 style='border-bottom:1.0pt solid black'>Kiso Start</td>
+				<td colspan=3 class=xl36 style='border-right:1.0pt solid black;border-left:none'>OLD</td>
+				<td colspan=3 class=xl36 style='border-right:1.0pt solid black;border-left:none'>NEW</td>
+			</tr>
+		
+			<tr height=84 style='mso-height-source:userset;height:63.0pt'>
+				<td height=84 class=xl26 width=313 style='height:63.0pt;border-top:none; border-left:none;width:235pt'>YN/高耐力50ﾌｨｽﾄｱﾝｶｰﾎﾞﾙﾄ N付 M16X420</td>
+				<td class=xl27 width=313 style='border-top:none;border-left:none;width:235pt'>YN/高耐力50ﾌｨｽﾄｱﾝｶｰﾎﾞﾙﾄﾃﾞｭﾗﾙ仕様 M16X620</td>
+				<td class=xl28 width=313 style='border-top:none;border-left:none;width:235pt'>YN/高耐力50ﾌｨｽﾄｱﾝｶｰﾎﾞﾙﾄﾃﾞｭﾗﾙ仕様 M16X800</td>
+				<td class=xl26 width=369 style='border-top:none;border-left:none;width:277pt'>YN/高耐力65　BKﾌｨｽﾄｱﾝｶｰﾎﾞﾙﾄ(ﾃﾞｭﾗﾙ仕様) M16×420</td>
+				<td class=xl27 width=369 style='border-top:none;border-left:none;width:277pt'>YN/高耐力65　RSﾌｨｽﾄｱﾝｶｰﾎﾞﾙﾄ(ﾃﾞｭﾗﾙ仕様) M16×620</td>
+				<td class=xl28 width=369 style='border-top:none;border-left:none;width:277pt'>YN/高耐力65　BSﾌｨｽﾄｱﾝｶｰﾎﾞﾙﾄ(ﾃﾞｭﾗﾙ仕様) M16×800</td>
+			</tr>
+		
+			<tr height=53 style='mso-height-source:userset;height:39.75pt'>
+				<td height=53 class=xl29 width=313 style='height:39.75pt;border-top:none;border-left:none;width:235pt'>High Strength 50 L420</td>
+				<td class=xl30 width=313 style='border-top:none;border-left:none;width:235pt'>High Strength 50 L620</td>
+				<td class=xl31 width=313 style='width:235pt'>High Strength 50 L800</td>
+				<td class=xl32 width=369 style='border-left:none;width:277pt'>High Strength 65 L420</td>
+				<td class=xl33 width=369 style='width:277pt'>High Strength 65 L620</td>
+				<td class=xl31 width=369 style='width:277pt'>High Strength 65 L800</td>
+			</tr>
+		
+<!$MGREPEAT>
+			<tr height=17 style='height:12.75pt'>
+				<td height=17 class=xl25 style='height:12.75pt;border-top:none'><!$MG_Col1></td>
+				<td class=xl25 style='border-top:none;border-left:none'><!$MG_Col2></td>
+				<td class=xl35 x:num style='border-top:none;border-left:none'><!$MG_Col3></td>
+				<td class=xl35 x:num style='border-top:none;border-left:none'><!$MG_Col4></td>
+				<td class=xl25 style='border-top:none;border-left:none'><center><!$MG_Col5></center></td>
+				<td class=xl25 style='border-top:none;border-left:none'><center><!$MG_Col6></center></td>
+				<td class=xl25 style='border-top:none;border-left:none'><center><!$MG_Col7></center></td>
+				<td class=xl25 style='border-top:none;border-left:none'><center><!$MG_Col8></center></td>
+				<td class=xl25 style='border-top:none;border-left:none'><center><!$MG_Col9></center></td>
+				<td class=xl25 style='border-top:none;border-left:none'><center><!$MG_Col10></center></td>
+			</tr>
+
+			<![if supportMisalignedColumns]>
+				<tr height=0 style='display:none'>
+					<td width=110 style='width:83pt'></td>
+					<td width=290 style='width:218pt'></td>
+					<td width=110 style='width:83pt'></td>
+					<td width=110 style='width:83pt'></td>
+					<td width=313 style='width:235pt'></td>
+					<td width=313 style='width:235pt'></td>
+					<td width=313 style='width:235pt'></td>
+					<td width=369 style='width:277pt'></td>
+					<td width=369 style='width:277pt'></td>
+					<td width=369 style='width:277pt'></td>
+				</tr>
+			<![endif]>
+<!$MGENDREPEAT>
+			
+			
+		</table>
+	</body>
+</html>

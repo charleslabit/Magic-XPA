@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="152" Name="sub_p_ItemListIT">
+    <Error Desc="Illegal variable" ID="EP0104" Location="Form #3/Static Control/Properties/Visible Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Form #3/Static Control/Properties/Visible Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Form #3/Edit Control/Properties/Visible Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Form #3/Edit Control/Properties/Visible Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Form #3/Image Control/Properties/Visible Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Form #3/Image Control/Properties/Visible Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Form #3/Edit Control/Properties/Visible Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Form #3/Edit Control/Properties/Visible Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Form #3/Edit Control/Properties/Visible Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Form #3/Edit Control/Properties/Visible Exp"/>
+  </Task>
+
+</CheckerResult>

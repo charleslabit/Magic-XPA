@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="136" Name="sub_ItemList_IT_NEW">
+    <Error Desc="Invalid expression" ID="EP0052" Location="Task Prefix/Line #9/Update/Exp"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #9/Expression"/>
+    <UnUsedExpression Desc="Warning: Expression not used" ID="UP0020" Location="Exp #1/Expression"/>
+  </Task>
+
+</CheckerResult>

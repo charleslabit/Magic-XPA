@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="118" Name="sub_ItemListIT_Create">
+    <Error Desc="Variable incompatible with Attribute" ID="EP0115" Location="Form #2/??: (Image Control)/Properties/Data Exp"/>
+  </Task>
+
+</CheckerResult>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="94.1.2" Name="UnitWiringPlanOutput">
+    <Error Desc="Invalid variable" ID="EP0061" Location="SQL Command/SQL command output/Arguments #7/Variable"/>
+  </Task>
+
+</CheckerResult>

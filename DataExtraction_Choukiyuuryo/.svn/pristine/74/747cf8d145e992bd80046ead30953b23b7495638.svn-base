@@ -1,0 +1,312 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	
+	<meta http-equiv="content-type" content="text/html; charset=shift_jis">
+	<title></title>
+	<meta name="generator" content="LibreOffice 4.2.3.2 (Windows)">
+	<meta name="created" content="0;0">
+	<meta name="changedby" content="smd">
+	<meta name="changed" content="20180206;105909000000000">
+	
+	<style type="text/css"><!-- 
+		body,div,table,thead,tbody,tfoot,tr,th,td,p { font-family:"ＭＳ Ｐゴシック"; font-size:x-small }
+		 -->
+	</style>
+	
+</head>
+
+<table>	
+
+<tr>
+<tr>
+	<td align="center" bgcolor=""><b>Urgent</b></td>
+	<td align="center" bgcolor=""><b>Indicator</b></td>
+	<td align="center" bgcolor=""><b>until shiyousho-joutou</b></td>
+	<td align="center" bgcolor=""><b>Joto</b></td>
+	<td align="center" bgcolor=""><b>Jiban</b></td>
+	<td align="center" bgcolor=""><b>ConstructionCode</b></td>
+	<td align="center" bgcolor=""><b>PrefectureCode</b></td>
+	<td align="center" bgcolor=""><b>Type</b></td>
+	<td align="center" bgcolor=""><b>Type2</b></td>
+	<td align="center" bgcolor=""><b>Menshin</b></td>
+	<td align="center" bgcolor=""><b>Kakouirai Day</b></td>
+	<td align="center" bgcolor=""><b>Kakou Stop</b></td>
+	<td align="center" bgcolor=""><b>KakouResume</b></td>
+	<td align="center" bgcolor=""><b>Siyousho-jouto</b></td>
+	<td align="center" bgcolor=""><b>Kiso chakou</b></td>
+	<td align="center" bgcolor=""><b>JoutoPlan</b></td>
+	<td align="center" bgcolor=""><b>Sekkei</b></td>
+	<td align="center" bgcolor=""><b>Chouki</b></td>
+	<td align="center" bgcolor=""><b>Teitanso</b></td>
+	<td align="center" bgcolor=""><b>Hoken</b></td>
+	<td align="center" bgcolor=""><b>PM ⇒</b></td>
+	<td align="center" bgcolor=""><b>WFD ⇒</b></td>
+	<td align="center" bgcolor=""><b>WFE ⇒</b></td>
+	<td align="center" bgcolor=""><b>LD ⇒</b></td>
+	<td align="center" bgcolor=""><b>FD ⇒</b></td>
+	<td align="center" bgcolor=""><b>BFD ⇒</b></td>
+	<td align="center" bgcolor=""><b>SCT ⇒</b></td>
+	<td align="center" bgcolor=""><b>FD-kento ⇒</b></td>
+	<td align="center" bgcolor=""><b>MPCAD ⇒</b></td>
+	<td align="center" bgcolor=""><b>HD ⇒</b></td>
+	<td align="center" bgcolor=""><b>SC-i ⇒</b></td>
+	<td align="center" bgcolor=""><b>PW ⇒</b></td>
+	<td align="center" bgcolor=""><b>CR ⇒</b></td>
+	<td align="center" bgcolor=""><b>TY4 ⇒</b></td>
+	<td align="center" bgcolor=""><b>CYmain ⇒</b></td>
+	<td align="center" bgcolor=""><b>Target Day of Application</b></td>
+	<td align="center" bgcolor=""><b>Process 1</b></td>
+	<td align="center" bgcolor=""><b>Apply Day</b></td>
+	<td align="center" bgcolor=""><b>Target Day of Approve</b></td>
+	<td align="center" bgcolor=""><b>Process 2</b></td>
+	<td align="center" bgcolor=""><b>Temp Due Day</b></td>
+	<td align="center" bgcolor=""><b>Due Day</b></td>
+	<td align="center" bgcolor=""><b>Countdown</b></td>
+	<td align="center" bgcolor=""><b>Sending Day</b></td>
+	<td align="center" bgcolor=""><b>Process 3</b></td>
+	<td align="center" bgcolor=""><b>kiso-kakou</b></td>
+	<td align="center" bgcolor=""><b>Jouto-kiso</b></td>
+	<td align="center" bgcolor=""><b>Henko Qty</b></td>
+	<td align="center" bgcolor=""><b>Final Due</b></td>
+	<td align="center" bgcolor=""><b>Kakouirai</b></td>
+	<td align="center" bgcolor=""><b>PM Release</b></td>
+	
+	
+	<td align="center" bgcolor=""><b>C10302</b></td>
+	<td align="center" bgcolor=""><b>C10312</b></td>
+	<td align="center" bgcolor=""><b>C10310</b></td>
+	<td align="center" bgcolor=""><b>C10316</b></td>
+	<td align="center" bgcolor=""><b>C10329</b></td>
+	<td align="center" bgcolor=""><b>C30960</b></td>
+	<td align="center" bgcolor=""><b>C10904</b></td>
+	<td align="center" bgcolor=""><b>C10916</b></td>
+	<td align="center" bgcolor=""><b>C11102</b></td>
+	<td align="center" bgcolor=""><b>C11122</b></td>
+	<td align="center" bgcolor=""><b>C11402</b></td>
+	<td align="center" bgcolor=""><b>C11414</b></td>
+	<td align="center" bgcolor=""><b>C30810</b></td>
+	<td align="center" bgcolor=""><b>C30860</b></td>
+	<td align="center" bgcolor=""><b>C11700</b></td>
+	<td align="center" bgcolor=""><b>C11713</b></td>
+	<td align="center" bgcolor=""><b>C12702</b></td>
+	<td align="center" bgcolor=""><b>C12714</b></td>
+	<td align="center" bgcolor=""><b>Q01000</b></td>
+	<td align="center" bgcolor=""><b>Q02090</b></td>
+	<td align="center" bgcolor=""><b>Q04040</b></td>
+	<td align="center" bgcolor=""><b>Q04080</b></td>
+	<td align="center" bgcolor=""><b>Q04030</b></td>
+	<td align="center" bgcolor=""><b>Q04090</b></td>
+	<td align="center" bgcolor=""><b>C11414_2</b></td>
+	<td align="center" bgcolor=""><b>Q02070_2</b></td>
+	<td align="center" bgcolor=""><b>C30300</b></td>
+	<td align="center" bgcolor=""><b>C40020</b></td>
+	<td align="center" bgcolor=""><b>C40020_2</b></td>
+	<td align="center" bgcolor=""><b>C40030</b></td>
+	<td align="center" bgcolor=""><b>C40020_3</b></td>
+
+	<td align="center" bgcolor=""><b>C40010</b></td>
+	<td align="center" bgcolor=""><b>Solar</b></td>
+	<td align="center" bgcolor=""><b>C18100</b></td>
+	<td align="center" bgcolor=""><b>Progress</b></td>
+	<td align="center" bgcolor=""><b>ConstructionSectionCode</b></td>
+	<td align="center" bgcolor=""><b>ConstructionSectionName</b></td>
+
+	<td align="center" bgcolor=""><b>Process Day Color</b></td>
+	<td align="center" bgcolor=""><b>Process Day2 Color</b></td>
+	<td align="center" bgcolor=""><b>Process Day3 Color</b></td>
+	<td align="center" bgcolor=""><b>Countdown Color</b></td>
+	<td align="center" bgcolor=""><b>Row Color</b></td>
+	<td align="center" bgcolor=""><b>Row Color2</b></td>
+
+	<td align="center" bgcolor=""><b>C-PM</b></td>
+	<td align="center" bgcolor=""><b>C-WFD</b></td>
+	<td align="center" bgcolor=""><b>C-WFE</b></td>
+	<td align="center" bgcolor=""><b>C-LD</b></td>
+	<td align="center" bgcolor=""><b>C-FD</b></td>
+	<td align="center" bgcolor=""><b>C-BFD</b></td>
+	<td align="center" bgcolor=""><b>C-SCT</b></td>
+	<td align="center" bgcolor=""><b>FD-K</b></td>
+	<td align="center" bgcolor=""><b>C-MPCAD</b></td>
+	<td align="center" bgcolor=""><b>C-HD</b></td>
+	<td align="center" bgcolor=""><b>C-SCi</b></td>
+	
+	<td align="center" bgcolor=""><b>C-PW</b></td>
+	<td align="center" bgcolor=""><b>C-CR</b></td>
+	<td align="center" bgcolor=""><b>C-TY4</b></td>
+	<td align="center" bgcolor=""><b>C-CYmain</b></td>
+	<td align="center" bgcolor=""><b>C-TY9TY10</b></td>
+	<td align="center" bgcolor=""><b>C-PM2</b></td>
+	<td align="center" bgcolor=""><b>C-WFD2</b></td>
+	<td align="center" bgcolor=""><b>C-WFE2</b></td>
+	<td align="center" bgcolor=""><b>C-LD2</b></td>
+	<td align="center" bgcolor=""><b>C-FD2</b></td>
+
+	<td align="center" bgcolor=""><b>C-BFD2</b></td>
+	<td align="center" bgcolor=""><b>C-SCT2</b></td>
+	<td align="center" bgcolor=""><b>C-FD-K2</b></td>
+	<td align="center" bgcolor=""><b>C-MPCAD2</b></td>
+	<td align="center" bgcolor=""><b>C-HD2</b></td>
+	<td align="center" bgcolor=""><b>C-SCi2</b></td>
+	<td align="center" bgcolor=""><b>C-PW2</b></td>
+	<td align="center" bgcolor=""><b>C-CR2</b></td>
+	<td align="center" bgcolor=""><b>C-TY42</b></td>
+	<td align="center" bgcolor=""><b>C-CYmain2</b></td>
+	<td align="center" bgcolor=""><b>C-TY9TY102</b></td>
+
+</tr>
+<!$MGREPEAT>
+	<tr>
+		<td align="left"><!$MG_1></td>
+		<td align="left"><!$MG_2></td>
+		<td align="left"><!$MG_3></td>
+		<td align="left"><!$MG_4></td>
+		<td align="left"><!$MG_5></td>
+		<td align="left"><!$MG_6></td>
+		<td align="left"><!$MG_7></td>
+		<td align="left"><!$MG_8></td>
+		<td align="left"><!$MG_9></td>
+		<td align="left"><!$MG_10></td>
+
+		<td align="left"><!$MG_11></td>
+		<td align="left"><!$MG_12></td>
+		<td align="left"><!$MG_13></td>
+		<td align="left"><!$MG_14></td>
+		<td align="left"><!$MG_15></td>
+		<td align="left"><!$MG_16></td>
+		<td align="left"><!$MG_17></td>
+		<td align="left"><!$MG_18></td>
+		<td align="left"><!$MG_19></td>
+		<td align="left"><!$MG_20></td>
+
+		<td align="left"><!$MG_21></td>
+		<td align="left"><!$MG_22></td>
+		<td align="left"><!$MG_23></td>
+		<td align="left"><!$MG_24></td>
+		<td align="left"><!$MG_25></td>
+		<td align="left"><!$MG_26></td>
+		<td align="left"><!$MG_27></td>
+		<td align="left"><!$MG_28></td>
+		<td align="left"><!$MG_29></td>
+		<td align="left"><!$MG_30></td>
+
+		<td align="left"><!$MG_31></td>
+		<td align="left"><!$MG_32></td>
+		<td align="left"><!$MG_33></td>
+		<td align="left"><!$MG_34></td>
+		<td align="left"><!$MG_35></td>
+		<td align="left"><!$MG_36></td>
+		<td align="left"><!$MG_37></td>
+		<td align="left"><!$MG_38></td>
+		<td align="left"><!$MG_39></td>
+		<td align="left"><!$MG_40></td>
+
+		<td align="left"><!$MG_41></td>
+		<td align="left"><!$MG_42></td>
+		<td align="left"><!$MG_43></td>
+		<td align="left"><!$MG_44></td>
+		<td align="left"><!$MG_45></td>
+		<td align="left"><!$MG_46></td>
+		<td align="left"><!$MG_47></td>
+		<td align="left"><!$MG_48></td>
+		<td align="left"><!$MG_49></td>
+		<td align="left"><!$MG_50></td>
+
+		<td align="left"><!$MG_51></td>
+		<td align="left"><!$MG_52></td>
+		<td align="left"><!$MG_53></td>
+		<td align="left"><!$MG_54></td>
+		<td align="left"><!$MG_55></td>
+		<td align="left"><!$MG_56></td>
+		<td align="left"><!$MG_57></td>
+		<td align="left"><!$MG_58></td>
+		<td align="left"><!$MG_59></td>
+		<td align="left"><!$MG_60></td>
+
+		<td align="left"><!$MG_61></td>
+		<td align="left"><!$MG_62></td>
+		<td align="left"><!$MG_63></td>
+		<td align="left"><!$MG_64></td>
+		<td align="left"><!$MG_65></td>
+		<td align="left"><!$MG_66></td>
+		<td align="left"><!$MG_67></td>
+		<td align="left"><!$MG_68></td>
+		<td align="left"><!$MG_69></td>
+		<td align="left"><!$MG_70></td>
+
+		<td align="left"><!$MG_71></td>
+		<td align="left"><!$MG_72></td>
+		<td align="left"><!$MG_73></td>
+		<td align="left"><!$MG_74></td>
+		<td align="left"><!$MG_75></td>
+		<td align="left"><!$MG_76></td>
+		<td align="left"><!$MG_77></td>
+		<td align="left"><!$MG_78></td>
+		<td align="left"><!$MG_79></td>
+		<td align="left"><!$MG_80></td>
+		
+		<td align="left"><!$MG_81></td>
+		<td align="left"><!$MG_82></td>
+		<td align="left"><!$MG_83></td>
+		<td align="left"><!$MG_84></td>
+		<td align="left"><!$MG_85></td>
+		<td align="left"><!$MG_86></td>
+		<td align="left"><!$MG_87></td>
+		<td align="left"><!$MG_88></td>
+		<td align="left"><!$MG_89></td>
+		<td align="left"><!$MG_90></td>
+
+		<td align="left"><!$MG_91></td>
+		<td align="left"><!$MG_92></td
+		<td align="left"><!$MG_95></td
+		<td align="left"><!$MG_96></td
+		
+		
+		<td align="left"><!$MG_97></td>
+		<td align="left"><!$MG_98></td>
+		<td align="left"><!$MG_99></td>
+		<td align="left"><!$MG_100></td>
+
+		<td align="left"><!$MG_101></td>
+		<td align="left"><!$MG_102></td>
+		<td align="left"><!$MG_103></td>
+		<td align="left"><!$MG_104></td>
+		<td align="left"><!$MG_105></td>
+		<td align="left"><!$MG_106></td>
+		<td align="left"><!$MG_107></td>
+
+
+		<td align="left"><!$MG_108></td>
+		<td align="left"><!$MG_109></td>
+		<td align="left"><!$MG_110></td>
+		<td align="left"><!$MG_111></td>
+		<td align="left"><!$MG_112></td>
+		<td align="left"><!$MG_113></td>
+		<td align="left"><!$MG_114></td>
+		<td align="left"><!$MG_115></td>
+		<td align="left"><!$MG_116></td>
+		<td align="left"><!$MG_117></td>
+		
+		<td align="left"><!$MG_118></td>
+		<td align="left"><!$MG_119></td>
+		<td align="left"><!$MG_120></td>
+		<td align="left"><!$MG_121></td>
+		<td align="left"><!$MG_122></td>
+		<td align="left"><!$MG_123></td>
+		<td align="left"><!$MG_124></td>
+		<td align="left"><!$MG_125></td>
+		<td align="left"><!$MG_126></td>
+		<td align="left"><!$MG_127></td>
+		<td align="left"><!$MG_128></td>
+
+
+
+
+	</tr>
+<!$MGENDREPEAT>
+</table>
+<!-- ************************************************************************** -->
+</body>
+
+</html>

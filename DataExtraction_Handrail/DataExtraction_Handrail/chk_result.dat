@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="94" Name="m_HandRail">
+    <Error Desc="Invalid program/task selected in call command" ID="EP0058" Location="Task Suffix/Line #3/Call Program"/>
+    <Error Desc="Invalid program/task selected in call command" ID="EP0058" Location="Task Suffix/Line #4/Call Program"/>
+    <Error Desc="Invalid program/task selected in call command" ID="EP0058" Location="Task Suffix/Line #5/Call Program"/>
+  </Task>
+
+</CheckerResult>

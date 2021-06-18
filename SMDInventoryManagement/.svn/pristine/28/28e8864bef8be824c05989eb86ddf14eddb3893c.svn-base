@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <DebugMode Val="N"/>
+
+  <RIAExecutionPlatform Val="Desktop"/>
+
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_ItemListIT_Create"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="174"/>
+      <LineIndex Val="5"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="125"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="174"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_ItemListCPU_Create"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="171"/>
+      <LineIndex Val="2"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="242"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="171"/>
+    </Breakpoint>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="sub_ItemListLS/OS_Create"/>
+      <HandlerId Val="3"/>
+      <OperationId Val="171"/>
+      <LineIndex Val="2"/>
+      <HandlerDesc Val="Record Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="261"/>
+      <Subtask Val="1"/>
+      <Type Val="1"/>
+      <Operation Val="171"/>
+    </Breakpoint>
+  </Breakpoints>
+
+  <WatchListItems>
+    <RestData/>
+  </WatchListItems>
+
+</Application>

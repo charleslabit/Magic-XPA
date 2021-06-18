@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="117" Name="sub_ItemListIT_Create">
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #17/Update/Exp"/>
+    <Error Desc="Argument missing" ID="EP0186" Location="Record Suffix/Line #18/Update/Exp"/>
+  </Task>
+
+</CheckerResult>

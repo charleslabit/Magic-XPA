@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="151.1" Name="Create Temporary">
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #3/Update/Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #4/Update/Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #5/Update/Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #6/Update/Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #7/Update/Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #8/Update/Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #9/Update/Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #10/Update/Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #11/Update/Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #12/Update/Exp"/>
+    <Error Desc="Illegal variable" ID="EP0104" Location="Record Suffix/Line #13/Update/Exp"/>
+  </Task>
+
+</CheckerResult>

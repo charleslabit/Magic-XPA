@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Table ID="12" Name="">
+    <Error Desc="Row length must be greater than zero" ID="ET0017" Location="Row length must be greater than zero"/>
+  </Table>
+
+</CheckerResult>

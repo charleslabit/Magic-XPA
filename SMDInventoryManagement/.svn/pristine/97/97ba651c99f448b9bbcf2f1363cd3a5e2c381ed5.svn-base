@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="113" Name="m_NewStock_OLD">
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Variable IN:MaterialCode Change/Line #15/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Refresh/Line #78/Call Program/Properties/Arguments/Var"/>
+  </Task>
+
+  <Task ID="113.1" Name="sub_ItemRegistration">
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Generate/Line #66/Call Program/Properties/Arguments/Var"/>
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Generate/Line #81/Call Program/Properties/Arguments/Var"/>
+  </Task>
+
+</CheckerResult>

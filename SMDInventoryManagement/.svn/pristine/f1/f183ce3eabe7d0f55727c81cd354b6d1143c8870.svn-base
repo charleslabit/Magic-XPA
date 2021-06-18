@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="112" Name="m_NewStock">
+    <Warning Desc="Number of Arguments not equal to number of Parameters." ID="WP0055" Location="Event On btn_Refresh/Line #71/Call Program/Properties/Arguments/Var"/>
+  </Task>
+
+</CheckerResult>

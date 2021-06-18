@@ -1,0 +1,199 @@
+﻿ <238164894694856576> 13/12/2019 08:17:31.358     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_GaragePanel.Query Part 1
+ <238164894694856576> 13/12/2019 08:17:31.358     [Error  ] - HRDSQL6 : There is already an object named 'W_GaragePanel_W_001' in the database., program: m_GaragePanel.Query Part 1
+ <277722735346162144> 13/12/2019 08:18:04.450     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_GaragePanel.Truncate
+ <277722735346162144> 13/12/2019 08:18:04.466     [Error  ] - HRDSQL6 : Cannot find the object "W_GaragePanel_W_012" because it does not exist or you do not have permissions., program: m_GaragePanel.Truncate
+ <377532741027346368> 13/12/2019 08:18:41.218     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_GaragePanel.Truncate
+ <377532741027346368> 13/12/2019 08:18:41.234     [Error  ] - HRDSQL6 : Cannot find the object "W_GaragePanel_W_012" because it does not exist or you do not have permissions., program: m_GaragePanel.Truncate
+ <290742752225542976> 13/12/2019 08:19:18.080     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_GaragePanel.Truncate
+ <290742752225542976> 13/12/2019 08:19:18.095     [Error  ] - HRDSQL6 : Cannot find the object "W_GaragePanel_W_012" because it does not exist or you do not have permissions., program: m_GaragePanel.Truncate
+ <64065252373914128> 13/12/2019 08:20:02.821     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_GaragePanel.Truncate
+ <64065252373914128> 13/12/2019 08:20:02.821     [Error  ] - HRDSQL6 : Cannot find the object "W_GaragePanel_W_012" because it does not exist or you do not have permissions., program: m_GaragePanel.Truncate
+ <70416980728800744> 13/12/2019 08:22:24.224     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_GaragePanel.Truncate
+ <70416980728800744> 13/12/2019 08:22:24.224     [Error  ] - HRDSQL6 : Cannot find the object "W_GaragePanel_W_012" because it does not exist or you do not have permissions., program: m_GaragePanel.Truncate
+
+==============================================
+PID 5532	13/12/2019 08:23:46
+==============================================
+
+
+ <33506968640937708> 13/12/2019 10:43:59.825     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <33506968640937708> 13/12/2019 10:45:06.414     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <92020296306373792> 13/12/2019 10:47:16.536     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 10:49:34.695     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 10:53:35.011     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 11:06:51.562     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 11:07:48.080     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 11:08:42.986     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 11:09:58.731     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 11:11:06.522     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 11:12:14.007     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 11:12:33.303     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 11:13:04.271     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <93643656607455936> 13/12/2019 11:13:26.130     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <369539198124013056> 13/12/2019 11:24:48.755     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <422961599733430720> 13/12/2019 11:27:47.845     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <158034608182362016> 13/12/2019 11:29:46.424     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <314420803177747456> 13/12/2019 11:31:45.392     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <321593922433835520> 13/12/2019 11:36:32.018     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <294469291463521216> 13/12/2019 11:45:37.852     [Error  ] - Failed to open, data source: W_ModuleMonitoringSheet_W904, program: m_ModuleMonitoringSheet.testt
+ <193603669030452576> 13/12/2019 15:20:16.636     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <69554899675730088> 13/12/2019 15:28:49.125     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905
+ <528487416655929472> 13/12/2019 15:30:34.543     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905
+ <320789978115305792> 13/12/2019 15:31:48.026     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <320789978115305792> 13/12/2019 15:31:59.478     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <121756605324143152> 13/12/2019 15:32:35.577     [Error  ] - Constraint failure, data source:  W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <232896752230240576> 13/12/2019 15:33:15.132     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <232896752230240576> 13/12/2019 15:33:23.853     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <200761864001233632> 13/12/2019 15:35:08.337     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <521265323269930176> 13/12/2019 15:35:35.145     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <423202537161930048> 13/12/2019 15:35:50.591     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905.Load_W905
+ <528719509067386240> 17/12/2019 08:28:20.746     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905
+ <325470385496209216> 17/12/2019 08:29:28.605     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:21.385     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:21.557     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:21.703     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:21.856     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:22.009     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:22.543     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:22.716     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:22.895     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:23.043     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:23.182     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:23.715     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:23.889     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:24.062     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:24.231     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:24.368     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:24.543     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:24.696     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:24.829     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:25.022     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:25.181     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:25.372     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:25.531     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:25.704     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:25.922     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:26.096     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:26.255     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:26.404     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:27.037     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:27.226     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:27.424     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:27.623     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:27.822     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <544074465539027648> 17/12/2019 08:31:27.995     [Error  ] - Warning - Modify operation canceled due to task Query mode, program: m_ModuleMonitoringSheet.Q910_W905
+ <125950632189382368> 17/12/2019 08:31:49.431     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905
+ <122749078097105744> 17/12/2019 08:32:41.228     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905
+ <34515346839008700> 17/12/2019 08:37:26.224     [Error  ] - Update operation failed, data source: W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905
+ <192188095840556320> 18/12/2019 11:36:57.577     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_ModuleMonitoringSheet.Pro.Procedure
+ <192188095840556320> 18/12/2019 11:36:57.577     [Error  ] - HRDSQL6 : Error converting data type int to datetime., program: m_ModuleMonitoringSheet.Pro.Procedure
+ <192188095840556320> 18/12/2019 11:36:59.525     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_ModuleMonitoringSheet.Pro.Procedure
+ <192188095840556320> 18/12/2019 11:36:59.525     [Error  ] - HRDSQL6 : Error converting data type int to datetime., program: m_ModuleMonitoringSheet.Pro.Procedure
+ <192188095840556320> 18/12/2019 11:37:00.618     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_ModuleMonitoringSheet.Pro.Procedure
+ <192188095840556320> 18/12/2019 11:37:00.634     [Error  ] - HRDSQL6 : Error converting data type int to datetime., program: m_ModuleMonitoringSheet.Pro.Procedure
+ <192188095840556320> 18/12/2019 11:37:00.965     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_ModuleMonitoringSheet.Pro.Procedure
+ <192188095840556320> 18/12/2019 11:37:00.985     [Error  ] - HRDSQL6 : Error converting data type int to datetime., program: m_ModuleMonitoringSheet.Pro.Procedure
+ <154425713894502432> 18/12/2019 11:37:37.842     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_ModuleMonitoringSheet.Pro.Procedure
+ <154425713894502432> 18/12/2019 11:37:37.858     [Error  ] - HRDSQL6 : Error converting data type varchar to datetime., program: m_ModuleMonitoringSheet.Pro.Procedure
+ <154425713894502432> 18/12/2019 11:37:39.153     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_ModuleMonitoringSheet.Pro.Procedure
+ <154425713894502432> 18/12/2019 11:37:39.169     [Error  ] - HRDSQL6 : Error converting data type varchar to datetime., program: m_ModuleMonitoringSheet.Pro.Procedure
+ <154425713894502432> 18/12/2019 11:37:43.487     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_ModuleMonitoringSheet.Pro.Procedure
+ <154425713894502432> 18/12/2019 11:37:43.502     [Error  ] - HRDSQL6 : Error converting data type varchar to datetime., program: m_ModuleMonitoringSheet.Pro.Procedure
+ <556093358393266048> 18/12/2019 11:41:19.023     [Error  ] - Constraint failure, data source:  W_ModuleMonitoringSheet_W905, program: m_ModuleMonitoringSheet.Q910_W905
+ <537719384146534400> 18/12/2019 12:11:04.632     [Error  ] - Error in executing SQL command NAIS, program: m_ModuleMonitoringSheet.TEST.test
+
+==============================================
+PID 5204	18/12/2019 12:57:18
+==============================================
+
+
+ <567618080641594048> 18/12/2019 13:26:04.293     [Error  ] - Error in executing SQL command NAIS, program: m_ModuleMonitoringSheet.TEST.test
+ <311905439356903616> 19/12/2019 07:40:17.613     [Error  ] - Invalid SQL command, database: NAIS, program: test
+ <311905439356903616> 19/12/2019 07:40:17.645     [Error  ] - ORA-00907: missing right parenthesis
+, program: test
+ <406249853465786816> 19/12/2019 07:40:50.905     [Error  ] - Invalid SQL command, database: NAIS, program: test
+ <406249853465786816> 19/12/2019 07:40:50.921     [Error  ] - ORA-00907: missing right parenthesis
+, program: test
+ <340554657938300160> 19/12/2019 07:41:37.240     [Error  ] - Invalid SQL command, database: NAIS, program: test
+ <340554657938300160> 19/12/2019 07:41:37.256     [Error  ] - ORA-00907: missing right parenthesis
+, program: test
+ <445607415363096448> 19/12/2019 07:41:54.670     [Error  ] - Invalid SQL command, database: NAIS, program: test
+ <445607415363096448> 19/12/2019 07:41:54.685     [Error  ] - ORA-00907: missing right parenthesis
+, program: test
+ <-1> 19/12/2019 13:28:19.346     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <317900678337720256> 19/12/2019 15:03:12.616     [Error  ] - Failed to open, data source: WK_QA03_3, program: test
+ <341030036223473408> 19/12/2019 15:04:05.474     [Error  ] - Invalid SQL command, database: NAIS, program: m_ModuleMonitoringSheettest
+ <341030036223473408> 19/12/2019 15:04:05.489     [Error  ] - ORA-00936: missing expression
+, program: m_ModuleMonitoringSheettest
+ <349684958147911936> 19/12/2019 15:04:38.964     [Error  ] - Invalid SQL command, database: NAIS, program: m_ModuleMonitoringSheettest
+ <349684958147911936> 19/12/2019 15:04:38.979     [Error  ] - ORA-00936: missing expression
+, program: m_ModuleMonitoringSheettest
+ <-1> 19/12/2019 15:15:48.866     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 19/12/2019 15:16:39.336     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <94090607521359472> 20/12/2019 08:36:10.030     [Error  ] - Definition mismatch, data source: WK_QA03_2, program: Browse - WK_QA03_2
+ <405847403141662400> 20/12/2019 10:41:40.675     [Error  ] - Duplicate index, data source: test3, program: oTEST
+ <375747652117093504> 20/12/2019 10:43:24.809     [Error  ] - Duplicate index, data source: test3, program: oTEST
+ <148366163795195712> 20/12/2019 10:45:45.617     [Error  ] - Definition mismatch, data source: WK_QA03_2, program: Browse - WK_QA03_2
+ <42991442419626448> 20/12/2019 12:37:49.753     [Error  ] - Duplicate index, data source: WK_QA03_2, program: m_ModuleMonitoringSheettest
+ <127011352431847696> 20/12/2019 12:41:37.027     [Error  ] - Definition mismatch, data source: WK_QA03_2, program: m_ModuleMonitoringSheettest
+ <6470546805273220> 20/12/2019 13:52:49.749     [Error  ] - Definition mismatch, data source: WK_QA03_22, program: Browse - WK_QA03_2
+ <289282285451891520> 20/12/2019 14:57:13.034     [Error  ] - Invalid SQL command, database: NAIS, program: m_ModuleMonitoringSheet.m_ModuleMonitoringSheettest
+ <289282285451891520> 20/12/2019 14:57:13.049     [Error  ] - ORA-00904: "B"."CUSTOMERCODE": invalid identifier
+, program: m_ModuleMonitoringSheet.m_ModuleMonitoringSheettest
+ <289282285451891520> 20/12/2019 14:57:15.875     [Error  ] - Invalid SQL command, database: NAIS, program: m_ModuleMonitoringSheet.m_ModuleMonitoringSheettest
+ <289282285451891520> 20/12/2019 14:57:15.890     [Error  ] - ORA-00904: "B"."CUSTOMERCODE": invalid identifier
+, program: m_ModuleMonitoringSheet.m_ModuleMonitoringSheettest
+ <289282285451891520> 20/12/2019 14:57:16.789     [Error  ] - Invalid SQL command, database: NAIS, program: m_ModuleMonitoringSheet.m_ModuleMonitoringSheettest
+ <289282285451891520> 20/12/2019 14:57:16.809     [Error  ] - ORA-00904: "B"."CUSTOMERCODE": invalid identifier
+, program: m_ModuleMonitoringSheet.m_ModuleMonitoringSheettest
+ <-1> 23/12/2019 07:37:57.530     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <82062199933235152> 06/01/2020 15:20:21.655     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_ModuleMonitoringSheet.QA04
+ <82062199933235152> 06/01/2020 15:20:21.686     [Error  ] - HRDSQL6 : The multi-part identifier "B.DBCadVersion" could not be bound., program: m_ModuleMonitoringSheet.QA04
+ <43190802459732360> 06/01/2020 15:20:48.179     [Error  ] - Invalid SQL command, database: DataExtractionTool, program: m_ModuleMonitoringSheet.QA04
+ <43190802459732360> 06/01/2020 15:20:48.179     [Error  ] - HRDSQL6 : Incorrect syntax near '='., program: m_ModuleMonitoringSheet.QA04
+ <368857079036425536> 13/02/2020 15:34:28.206     [Error  ] - Server login failed. Invalid user/password, data source: SpcadCLInfos_Cad, program: Browse - SpcadCLInfos_Cad
+ <400768681624049536> 13/02/2020 15:35:22.322     [Error  ] - Failed to open, data source: W_GaragePanel_W_006, program: Browse - W_GaragePanel_W_006
+
+==============================================
+PID 5888	13/02/2020 15:39:47
+==============================================
+
+
+ <506072377565348608> 13/02/2020 15:43:02.017     [Error  ] - Server login failed. Invalid user/password, data source: KSK.HTHIROI, program: Browse - HTHIROI
+ <398730587990445696> 13/02/2020 15:47:17.916     [Error  ] - Failed to open, data source: KSK.HTHIROI, program: Browse - HTHIROI
+ <489917075266015296> 14/02/2020 07:36:33.422     [Error  ] - Failed to open, data source: RevisionHistory, program: sub_SystemStart.sub_MainMenu.Sub_GetDefault
+ <109660710486410656> 14/02/2020 07:37:46.636     [Error  ] - Failed to open, data source: RevisionHistory, program: sub_SystemStart.sub_MainMenu.Sub_GetDefault
+ <273551043937683712> 14/02/2020 07:38:05.196     [Error  ] - Failed to open, data source: RevisionHistory, program: sub_SystemStart.sub_MainMenu.Sub_GetDefault
+ <139832354171720288> 14/02/2020 07:38:26.393     [Error  ] - Failed to open, data source: RevisionHistory, program: Browse - RevisionHistory
+ <479077401942047168> 14/02/2020 13:03:06.129     [Error  ] - Invalid SQL command, database: HRDInfoS, program: sub_SystemStart.sub_MainMenu.sub_Transactions.m_MPCADataExtraction.sub_ExportSelectedColumn
+ <479077401942047168> 14/02/2020 13:03:06.145     [Error  ] - HRDSQL : Incorrect syntax near '000020'., program: sub_SystemStart.sub_MainMenu.sub_Transactions.m_MPCADataExtraction.sub_ExportSelectedColumn
+ <548545020697533120> 24/07/2020 14:32:14.429     [Error  ] - [MgGui.dll] Control '??': Value of '1' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value, program: sub_MainMenu.sub_Transactions.m_NMP.sub_Export_NMP
+ <548545020697533120> 24/07/2020 14:32:14.819     [Error  ] - [MgGui.dll] 
+   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at com.magicsoftware.rte.CoreExecutor.WriteErrorToLog(Int64 contextID, String msg)
+   at com.magicsoftware.rte.GuiEventsProcessor.WriteErrorToLog(String message)
+   at com.magicsoftware.unipaas.Events.WriteErrorToLog(String msg)
+   at com.magicsoftware.unipaas.management.gui.MgControlBase.refreshProperties(Boolean onlyRepeatableProps)
+   at com.magicsoftware.rte.gui.MgControl.refreshControlPropsOnExpression()
+   at com.magicsoftware.rte.RteExecutor.RefreshControlPropsWithExpressions(Int32 taskID, Int32 ditIdx)
+   at RteExecutorEndpoint.InvokeRefreshControlPropsWithExpressions(Int32 taskID, Int32 ditIdx)
+   at RteExecutorBridge.RefreshControlPropsWithExpressions(RteExecutorBridge* , Int32 taskID, Int32 ditIdx)
+   at CoreExecutorEndpoint.EventsLoop()
+   at CoreExecutorGateway.EventsLoop()
+   at com.magicsoftware.rte.RTEmanager.ExecuteWorkThread()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean ignoreSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart(), program: sub_MainMenu.sub_Transactions.m_NMP.sub_Export_NMP
+ <217135215217781984> 17/09/2020 13:26:36.355     [Error  ] - Please fill-up all fields.
+ <217135215217781984> 17/09/2020 13:26:39.578     [Error  ] - Please fill-up all fields.
+ <217135215217781984> 17/09/2020 13:26:42.107     [Error  ] - Please fill-up all fields.
+ <522634442652718912> 17/09/2020 13:27:07.053     [Error  ] - Please fill-up all fields.
+ <522634442652718912> 17/09/2020 13:27:09.462     [Error  ] - Please fill-up all fields.
+ <522634442652718912> 17/09/2020 13:27:11.735     [Error  ] - Please fill-up all fields.
+ <522634442652718912> 17/09/2020 13:27:29.095     [Error  ] - Please fill-up all fields.
+ <522634442652718912> 17/09/2020 13:27:34.864     [Error  ] - Please fill-up all fields.
+ <522634442652718912> 17/09/2020 13:27:37.565     [Error  ] - Please fill-up all fields.
+ <522634442652718912> 17/09/2020 13:27:39.973     [Error  ] - Please fill-up all fields.

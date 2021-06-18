@@ -1,0 +1,84 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="12050"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="78"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+       
+<DataObject Resident="N" data_source="Temporary" id="1" name="----------Messages----------" offset="211" length="317"/> 
+<DataObject PhysicalName="Messages" Resident="N" data_source="SMDInventoryManagement" id="2" name="Messages" offset="529" length="6416"/> 
+<DataObject Resident="N" data_source="Temporary" id="3" name="-----Master Maintenance-----" offset="6946" length="311"/> 
+<DataObject Comment="Sample Masters Maintenance Format" PhysicalName="SampleTable" Resident="N" data_source="XPATemplate" id="37" name="SampleTable" offset="7258" length="10290"/> 
+<DataObject PhysicalName="RevisionHistory" Resident="N" data_source="XPATemplate" id="39" name="RevisionHistory" offset="17549" length="5755"/> 
+<DataObject Resident="N" data_source="Temporary" id="43" offset="23305" length="336"/> 
+<DataObject PhysicalName="EmployeeSystem" Resident="N" data_source="CompanyInformation_MIS" id="40" name="EmployeeSystem" offset="23642" length="9603"/> 
+<DataObject PhysicalName="Employees" Resident="N" data_source="CompanyInformation_MIS" id="41" name="Employees" offset="33246" length="15901"/> 
+<DataObject PhysicalName="SystemUserRights" Resident="N" data_source="CompanyInformation_MIS" id="42" name="SystemUserRights" offset="49148" length="8199"/> 
+<DataObject PhysicalName="Companies" Resident="N" data_source="GroupCompanyInformation" id="72" name="Companies" offset="57348" length="9217"/> 
+<DataObject PhysicalName="Brands" Resident="N" data_source="SMDInventoryManagement" id="8" name="Brands" offset="66566" length="6685"/> 
+<DataObject PhysicalName="ContractTypes" Resident="N" data_source="SMDInventoryManagement" id="9" name="ContractTypes" offset="73252" length="6741"/> 
+<DataObject PhysicalName="Languages" Resident="N" data_source="SMDInventoryManagement" id="47" name="Languages" offset="79994" length="6741"/> 
+<DataObject PhysicalName="LicenseTypes" Resident="N" data_source="SMDInventoryManagement" id="48" name="LicenseTypes" offset="86736" length="6765"/> 
+<DataObject PhysicalName="Materials" Resident="N" data_source="SMDInventoryManagement" id="70" name="Materials" offset="93502" length="11355"/> 
+<DataObject PhysicalName="Models" Resident="N" data_source="SMDInventoryManagement" id="65" name="Models" offset="104858" length="6717"/> 
+<DataObject PhysicalName="SoftwareTypes" Resident="N" data_source="SMDInventoryManagement" id="66" name="SoftwareTypes" offset="111576" length="6773"/> 
+<DataObject PhysicalName="Status" Resident="N" data_source="SMDInventoryManagement" id="67" name="Status" offset="118350" length="6721"/> 
+<DataObject PhysicalName="Suppliers" Resident="N" data_source="SMDInventoryManagement" id="68" name="Suppliers" offset="125072" length="6741"/> 
+<DataObject PhysicalName="UnitOfMeasurement" Resident="N" data_source="SMDInventoryManagement" id="69" name="UnitOfMeasurement" offset="131814" length="6743"/> 
+<DataObject PhysicalName="MaterialCategories" Resident="N" data_source="SMDInventoryManagement" id="71" name="MaterialCategories" offset="138558" length="9144"/> 
+<DataObject Resident="N" data_source="Temporary" id="14" name="-----Transaction Table-----" offset="147703" length="311"/> 
+<DataObject PhysicalName="ItemListCopier" Resident="N" data_source="SMDInventoryManagement" id="10" name="ItemListCopier" offset="148015" length="26640"/> 
+<DataObject PhysicalName="ItemListCPU" Resident="N" data_source="SMDInventoryManagement" id="11" name="ItemListCPU" offset="174656" length="36501"/> 
+<DataObject PhysicalName="ItemListIT" Resident="N" data_source="SMDInventoryManagement" id="12" name="ItemListIT" offset="211158" length="18372"/> 
+<DataObject PhysicalName="ItemListLicense" Resident="N" data_source="SMDInventoryManagement" id="13" name="ItemListLicense" offset="229531" length="30089"/> 
+<DataObject PhysicalName="ItemRegistrations" Resident="N" data_source="SMDInventoryManagement" id="46" name="ItemRegistrations" offset="259621" length="21033"/> 
+<DataObject Resident="N" data_source="Temporary" id="15" offset="280655" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="16" offset="280932" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="17" offset="281209" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="18" offset="281486" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="19" offset="281763" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="20" offset="282040" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="21" offset="282317" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="53" offset="282594" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="54" offset="282931" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="55" offset="283268" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="56" offset="283605" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="57" offset="283942" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="58" offset="284279" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="59" offset="284616" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="60" offset="284953" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="61" offset="285290" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="62" offset="285627" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="63" offset="285964" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="64" offset="286301" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="25" name="------Temporary Table------" offset="286638" length="311"/> 
+<DataObject PhysicalName="Wrk_ItemListIT" Resident="N" data_source="Temporary" id="73" name="Wrk_ItemListIT" offset="286950" length="4455"/> 
+<DataObject PhysicalName="Wrk_ItemListCPU" Resident="N" data_source="Temporary" id="74" name="Wrk_ItemListCPU" offset="291406" length="17944"/> 
+<DataObject PhysicalName="Wrk_ItemListCopier" Resident="N" data_source="Temporary" id="75" name="Wrk_ItemListCopier" offset="309351" length="10028"/> 
+<DataObject PhysicalName="Wrk_ItemListLicense" Resident="N" data_source="Temporary" id="78" name="Wrk_ItemListLicense" offset="319380" length="10915"/> 
+<DataObject Resident="N" data_source="Temporary" id="26" offset="330296" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="27" offset="330573" length="276"/> 
+<DataObject PhysicalName="Wrk_ItemRegistrations" Resident="N" data_source="Temporary" id="76" name="Wrk_ItemRegistrations" offset="330850" length="21635"/> 
+<DataObject Resident="N" data_source="Temporary" id="28" offset="352486" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="29" offset="352763" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="30" offset="353040" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="31" offset="353317" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="32" offset="353594" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="33" offset="353871" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="34" offset="354148" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="35" offset="354425" length="276"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30762117-86683381"/>  </Application>

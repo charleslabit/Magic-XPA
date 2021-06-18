@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="12050"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="64"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
+
+  <DataSourceRepository>
+    <DataObjects>
+      <DataObject Resident="N" data_source="Temporary" id="1" length="317" name="----------Messages----------" offset="210"/>
+      <DataObject PhysicalName="Messages" Resident="N" data_source="XPATemplate                &#x9;&#x9;" id="2" length="6431" name="Messages" offset="528"/>
+      <DataObject Resident="N" data_source="Temporary" id="3" length="311" name="-----Master Maintenance-----" offset="6960"/>
+      <DataObject Comment="Sample Masters Maintenance Format" PhysicalName="SampleTable" Resident="N" data_source="XPATemplate                &#x9;&#x9;" id="37" length="10316" name="SampleTable" offset="7272"/>
+      <DataObject PhysicalName="RevisionHistory" Resident="N" data_source="XPATemplate                &#x9;&#x9;" id="39" length="5781" name="RevisionHistory" offset="17589"/>
+      <DataObject Resident="N" data_source="Temporary" id="43" length="336" offset="23371"/>
+      <DataObject PhysicalName="EmployeeSystem" Resident="N" data_source="CompanyInformation     &#x9;   &#x9;&#x9;" id="40" length="9622" name="EmployeeSystem" offset="23708"/>
+      <DataObject PhysicalName="Employees" Resident="N" data_source="CompanyInformation     &#x9;   &#x9;&#x9;" id="41" length="15920" name="Employees" offset="33331"/>
+      <DataObject PhysicalName="SystemUserRights" Resident="N" data_source="CompanyInformation     &#x9;   &#x9;&#x9;" id="42" length="8218" name="SystemUserRights" offset="49252"/>
+      <DataObject Resident="N" data_source="Temporary" id="7" length="275" offset="57471"/>
+      <DataObject Resident="N" data_source="Temporary" id="8" length="275" offset="57747"/>
+      <DataObject Resident="N" data_source="Temporary" id="9" length="275" offset="58023"/>
+      <DataObject Resident="N" data_source="Temporary" id="10" length="276" offset="58299"/>
+      <DataObject Resident="N" data_source="Temporary" id="11" length="276" offset="58576"/>
+      <DataObject Resident="N" data_source="Temporary" id="12" length="276" offset="58853"/>
+      <DataObject Resident="N" data_source="Temporary" id="13" length="276" offset="59130"/>
+      <DataObject Resident="N" data_source="Temporary" id="46" length="336" offset="59407"/>
+      <DataObject Resident="N" data_source="Temporary" id="47" length="336" offset="59744"/>
+      <DataObject Resident="N" data_source="Temporary" id="48" length="336" offset="60081"/>
+      <DataObject Resident="N" data_source="Temporary" id="14" length="311" name="-----Transaction Table-----" offset="60418"/>
+      <DataObject Resident="N" data_source="Temporary" id="15" length="276" offset="60730"/>
+      <DataObject Resident="N" data_source="Temporary" id="16" length="276" offset="61007"/>
+      <DataObject Resident="N" data_source="Temporary" id="17" length="276" offset="61284"/>
+      <DataObject Resident="N" data_source="Temporary" id="18" length="276" offset="61561"/>
+      <DataObject Resident="N" data_source="Temporary" id="19" length="276" offset="61838"/>
+      <DataObject Resident="N" data_source="Temporary" id="20" length="276" offset="62115"/>
+      <DataObject Resident="N" data_source="Temporary" id="21" length="276" offset="62392"/>
+      <DataObject Resident="N" data_source="Temporary" id="53" length="336" offset="62669"/>
+      <DataObject Resident="N" data_source="Temporary" id="54" length="336" offset="63006"/>
+      <DataObject Resident="N" data_source="Temporary" id="55" length="336" offset="63343"/>
+      <DataObject Resident="N" data_source="Temporary" id="56" length="336" offset="63680"/>
+      <DataObject Resident="N" data_source="Temporary" id="57" length="336" offset="64017"/>
+      <DataObject Resident="N" data_source="Temporary" id="58" length="336" offset="64354"/>
+      <DataObject Resident="N" data_source="Temporary" id="59" length="336" offset="64691"/>
+      <DataObject Resident="N" data_source="Temporary" id="60" length="336" offset="65028"/>
+      <DataObject Resident="N" data_source="Temporary" id="61" length="336" offset="65365"/>
+      <DataObject Resident="N" data_source="Temporary" id="62" length="336" offset="65702"/>
+      <DataObject Resident="N" data_source="Temporary" id="63" length="336" offset="66039"/>
+      <DataObject Resident="N" data_source="Temporary" id="64" length="336" offset="66376"/>
+      <DataObject Resident="N" data_source="Temporary" id="25" length="311" name="------Temporary Table------" offset="66713"/>
+      <DataObject Resident="N" data_source="Temporary" id="26" length="276" offset="67025"/>
+      <DataObject Resident="N" data_source="Temporary" id="27" length="276" offset="67302"/>
+      <DataObject Resident="N" data_source="Temporary" id="28" length="276" offset="67579"/>
+      <DataObject Resident="N" data_source="Temporary" id="29" length="276" offset="67856"/>
+      <DataObject Resident="N" data_source="Temporary" id="30" length="276" offset="68133"/>
+      <DataObject Resident="N" data_source="Temporary" id="31" length="276" offset="68410"/>
+      <DataObject Resident="N" data_source="Temporary" id="32" length="276" offset="68687"/>
+      <DataObject Resident="N" data_source="Temporary" id="33" length="276" offset="68964"/>
+      <DataObject Resident="N" data_source="Temporary" id="34" length="276" offset="69241"/>
+      <DataObject Resident="N" data_source="Temporary" id="35" length="276" offset="69518"/>
+    </DataObjects>
+  </DataSourceRepository>
+
+  <LastModified val="30797466-190935444"/>
+
+</Application>

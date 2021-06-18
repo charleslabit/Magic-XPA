@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <DebugMode Val="N"/>
+
+  <RIAExecutionPlatform Val="Desktop"/>
+
+  <Breakpoints>
+    <DelAll/>
+    <Breakpoint>
+      <Condition Val=""/>
+      <Location Val="m_ChoukiYuuryou.Export"/>
+      <HandlerId Val="5"/>
+      <OperationId Val="49"/>
+      <LineIndex Val="18"/>
+      <HandlerDesc Val="Task Suffix"/>
+      <Count Val="0"/>
+      <Enable Val="1"/>
+      <Component1 Val="-1636660162"/>
+      <Component2 Val="5307"/>
+      <Component3 Val="17767"/>
+      <Component4 Val="616320393"/>
+      <Component5 Val="1323419937"/>
+      <Prog Val="125"/>
+      <Subtask Val="2"/>
+      <Type Val="1"/>
+      <Operation Val="49"/>
+    </Breakpoint>
+  </Breakpoints>
+
+  <WatchListItems>
+    <RestData/>
+  </WatchListItems>
+
+</Application>

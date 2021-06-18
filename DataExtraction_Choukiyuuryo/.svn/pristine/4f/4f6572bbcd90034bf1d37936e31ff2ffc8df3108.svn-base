@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="DataExtraction_ChoukiYuuryou"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{9E728C3E-14BB-4567-894D-BC2421C9E14E}"/>
+    <Version min="12010"/>
+  </_Project>
+
+</Application>

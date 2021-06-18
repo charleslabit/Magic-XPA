@@ -1,0 +1,94 @@
+﻿ <572422672424076928> 04/09/2019 07:47:09.578     [Error  ] - Unknown database, data source: XPATemplate                		, program: m_MainMenu.Sub_GetDefault
+ <572422672424076928> 04/09/2019 07:47:09.578     [Error  ] - Unknown database, data source: RevisionHistory, program: m_MainMenu.Sub_GetDefault
+ <38013393488240656> 04/09/2019 10:35:10.108     [Error  ] - Failed to open, data source: Messages, program: s_SampleTable.Confirm(OK)
+ <335892897205374720> 04/09/2019 10:35:46.788     [Error  ] - Failed to open, data source: Messages, program: Browse - Messages
+ <262155130971903744> 04/09/2019 16:15:30.528     [Error  ] - Constraint failure, data source:  ItemRegistrations, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <64252068634829456> 04/09/2019 16:36:01.622     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <484675377440816064> 04/09/2019 16:38:01.529     [Error  ] - Constraint failure, data source:  ItemRegistrations, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <484675377440816064> 04/09/2019 16:38:22.198     [Error  ] - Constraint failure, data source:  ItemRegistrations, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <328145121260828544> 04/09/2019 16:38:55.447     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <328145121260828544> 04/09/2019 16:38:56.694     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <328145121260828544> 04/09/2019 16:38:56.863     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <328145121260828544> 04/09/2019 16:39:13.454     [Error  ] - Constraint failure, data source:  ItemRegistrations, program: m_NewStock.sub_ItemRegistration.Generate
+ <328145121260828544> 04/09/2019 16:39:15.840     [Error  ] - Constraint failure, data source:  ItemRegistrations, program: m_NewStock.sub_ItemRegistration.Generate
+ <287037238796032448> 04/09/2019 16:41:10.609     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <287037238796032448> 04/09/2019 16:41:13.733     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <519444355482161856> 04/09/2019 16:44:21.436     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <519444355482161856> 04/09/2019 16:44:22.523     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <519444355482161856> 04/09/2019 16:44:22.964     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <519444355482161856> 04/09/2019 16:44:23.315     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <519444355482161856> 04/09/2019 16:44:30.173     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <519444355482161856> 04/09/2019 16:44:30.294     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <370411859377950656> 04/09/2019 16:58:17.175     [Error  ] - Failed to open, data source: Materials, program: Browse - Materials
+ <318724469867758400> 05/09/2019 08:25:14.979     [Error  ] - Constraint failure, data source:  ItemListIT, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListIT_Create
+ <420332813634243584> 05/09/2019 08:28:05.634     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <420332813634243584> 05/09/2019 08:28:05.728     [Error  ] - Update operation failed, data source: ItemListIT, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListIT_Create
+ <420332813634243584> 05/09/2019 08:28:15.120     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <420332813634243584> 05/09/2019 08:28:15.303     [Error  ] - Update operation failed, data source: ItemListIT, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListIT_Create
+ <510089117153494720> 05/09/2019 09:16:25.191     [Error  ] - Constraint failure, data source:  ItemListIT, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListIT_Create
+ <510089117153494720> 05/09/2019 09:16:33.790     [Error  ] - Constraint failure, data source:  ItemListIT, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListIT_Create
+ <510089117153494720> 05/09/2019 09:16:34.292     [Error  ] - Constraint failure, data source:  ItemListIT, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListIT_Create
+ <510089117153494720> 05/09/2019 09:16:34.668     [Error  ] - Constraint failure, data source:  ItemListIT, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListIT_Create
+ <539566999785794944> 05/09/2019 11:31:44.913     [Error  ] - Definition mismatch, data source: ItemListIT, program: Browse - ItemListIT
+ <105693279967568432> 05/09/2019 11:32:03.160     [Error  ] - Definition mismatch, data source: ItemListIT, program: Browse - ItemListIT
+ <323554628818906944> 05/09/2019 11:32:07.753     [Error  ] - Definition mismatch, data source: ItemListIT, program: Browse - ItemListIT
+ <376144372815871744> 05/09/2019 11:32:30.742     [Error  ] - Definition mismatch, data source: ItemListIT, program: Browse - ItemListIT
+ <385939328291438720> 05/09/2019 11:43:40.900     [Error  ] - Definition mismatch, data source: Wrk_ItemListIT, program: Browse - Wrk_ItemListIT
+ <315993276160752896> 05/09/2019 11:43:46.009     [Error  ] - Definition mismatch, data source: Wrk_ItemListIT, program: Browse - Wrk_ItemListIT
+ <128296105490056400> 05/09/2019 11:43:56.046     [Error  ] - Definition mismatch, data source: Wrk_ItemListIT, program: Browse - Wrk_ItemListIT
+ <446961524475383744> 05/09/2019 13:37:08.274     [Error  ] - Constraint failure, data source:  ItemListCPU, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListCPU_Create
+ <446961524475383744> 05/09/2019 13:37:14.494     [Error  ] - Constraint failure, data source:  ItemListCPU, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListCPU_Create
+ <446961524475383744> 05/09/2019 13:37:15.559     [Error  ] - Constraint failure, data source:  ItemListCPU, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListCPU_Create
+ <446961524475383744> 05/09/2019 13:37:16.571     [Error  ] - Constraint failure, data source:  ItemListCPU, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListCPU_Create
+ <267498711297754496> 05/09/2019 13:39:36.545     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <267498711297754496> 05/09/2019 13:39:41.776     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <267498711297754496> 05/09/2019 13:39:47.072     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <267498711297754496> 05/09/2019 13:39:47.410     [Error  ] - Update operation failed, data source: ItemListCPU, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListCPU_Create
+ <267498711297754496> 05/09/2019 13:39:57.714     [Error  ] - Constraint failure, data source:  ItemListCPU, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListCPU_Create
+ <18316533892142472> 05/09/2019 13:43:40.024     [Error  ] - Constraint failure, data source:  ItemListCPU, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListCPU_Create
+ <18316533892142472> 05/09/2019 13:43:48.746     [Error  ] - Constraint failure, data source:  ItemListCPU, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListCPU_Create
+ <18316533892142472> 05/09/2019 13:43:53.921     [Error  ] - Constraint failure, data source:  ItemListCPU, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListCPU_Create
+ <18316533892142472> 05/09/2019 13:43:54.970     [Error  ] - Constraint failure, data source:  ItemListCPU, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListCPU_Create
+ <276906115632921856> 05/09/2019 15:14:52.181     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <250506999688505696> 05/09/2019 15:21:39.395     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <383653902599551680> 05/09/2019 15:23:32.393     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <383653902599551680> 05/09/2019 15:23:44.441     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <383653902599551680> 05/09/2019 15:23:44.694     [Error  ] - Update operation failed, data source: ItemListIT, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.sub_ItemListIT_Create
+ <-1> 05/09/2019 15:25:31.853     [Error  ] - License MGCSTK 2.000_200504129_MGCSTK (2 consumed, 1 allowed)
+ <-1> 05/09/2019 15:25:31.884     [Error  ] - <-- 10.169.141.144, 1
+ <-1> 05/09/2019 15:25:31.900     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.900     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.900     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.900     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.901     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.901     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.901     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.932     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.932     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.932     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.932     [Error  ] - <-- 10.169.130.155Console, 1
+ <-1> 05/09/2019 15:25:31.932     [Error  ] - <-- 10.169.130.155Console, 1
+ <200232461015180448> 05/09/2019 15:35:38.687     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <462499880806613248> 06/09/2019 07:19:38.168     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration.Generate
+ <490770113171816960> 06/09/2019 08:11:16.347     [Error  ] - NULL is not allowed in only one part of Date-Time pair, program: m_NewStock.sub_ItemRegistration.Generate
+ <314959511879540224> 06/09/2019 08:12:13.231     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:16.207     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:16.731     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:17.115     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:17.503     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:19.057     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:19.540     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:21.607     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:22.058     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:22.242     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:22.391     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:22.554     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:22.713     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <314959511879540224> 06/09/2019 08:12:22.866     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <34499126007341676> 06/09/2019 09:59:44.879     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration
+ <34499126007341676> 06/09/2019 09:59:48.038     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration
+ <34499126007341676> 06/09/2019 09:59:48.763     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: sub_SystemStart.m_MainMenu.sub_Transactions.m_NewStock.sub_ItemRegistration
+ <336492701335901184> 06/09/2019 10:00:36.147     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <336492701335901184> 06/09/2019 10:00:39.041     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <336492701335901184> 06/09/2019 10:00:39.556     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration
+ <336492701335901184> 06/09/2019 10:00:39.924     [Error  ] - Duplicate index, data source: Wrk_ItemRegistrations, program: m_NewStock.sub_ItemRegistration

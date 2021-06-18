@@ -1,0 +1,76 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="12050"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="109"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+          
+<DataObject Resident="N" data_source="Temporary" id="1" name="----------Messages----------" offset="212" length="320"/> 
+<DataObject PhysicalName="Message" Resident="N" data_source="Temporary" id="2" name="Message" offset="533" length="6862"/> 
+<DataObject PhysicalName="HTHOUSE" Resident="N" data_source="KSK" id="67" name="HTHOUSE" offset="7396" length="36112"/> 
+<DataObject PhysicalName="ConstructionJobSchedules" Resident="N" data_source="JobSchedule" id="72" name="ConstructionJobSchedules" offset="43509" length="18876"/> 
+<DataObject PhysicalName="JobOnBridges" Resident="N" data_source="JobSchedule" id="97" name="JobOnBridges" offset="62386" length="11257"/> 
+<DataObject PhysicalName="Houses" Resident="N" data_source="HrdInformationService" id="78" name="Houses" offset="73644" length="56348"/> 
+<DataObject PhysicalName="ShipmentRequests" Resident="N" data_source="HrdInformationService" id="79" name="ShipmentRequests" offset="129993" length="17350"/> 
+<DataObject PhysicalName="Constructions" Resident="N" data_source="HrdInformationService" id="80" name="Constructions" offset="147344" length="47863"/> 
+<DataObject PhysicalName="ConstructionSchedule" Resident="N" data_source="HrdInformationService" id="81" name="ConstructionSchedule" offset="195208" length="97411"/> 
+<DataObject PhysicalName="BasicSpecificationDetails" Resident="N" data_source="HrdInformationService" id="88" name="BasicSpecificationDetails" offset="292620" length="10315"/> 
+<DataObject PhysicalName="SpecificationProductDetails" Resident="N" data_source="HrdInformationService" id="90" name="SpecificationProductDetails" offset="302936" length="22201"/> 
+<DataObject PhysicalName="RoomLayouts" Resident="N" data_source="HrdInformationService" id="89" name="RoomLayouts" offset="325138" length="6976"/> 
+<DataObject Resident="N" data_source="Temporary" id="103" offset="332115" length="337"/> 
+<DataObject PhysicalName="tbl_siyo_kanri" Resident="N" data_source="siyoDataBroker" id="104" name="tbl_siyo_kanri" offset="332453" length="64198"/> 
+<DataObject PhysicalName="tbl_siyo_kihon" Resident="N" data_source="siyoDataBroker" id="105" name="tbl_siyo_kihon" offset="396652" length="9052"/> 
+<DataObject Resident="N" data_source="Temporary" id="3" name="-----Master Maintenance-----" offset="405705" length="311"/> 
+<DataObject Comment="Sample Masters Maintenance Format" PhysicalName="SampleTable" Resident="N" data_source="XPATemplate" id="37" name="SampleTable" offset="406017" length="10290"/> 
+<DataObject PhysicalName="RevisionHistory" Resident="N" data_source="XPATemplate" id="39" name="RevisionHistory" offset="416308" length="5755"/> 
+<DataObject Resident="N" data_source="Temporary" id="43" offset="422064" length="336"/> 
+<DataObject PhysicalName="EmployeeSystem" Resident="N" data_source="CompanyInformation" id="40" name="EmployeeSystem" offset="422401" length="9599"/> 
+<DataObject PhysicalName="Employees" Resident="N" data_source="CompanyInformation" id="41" name="Employees" offset="432001" length="15897"/> 
+<DataObject PhysicalName="SystemUserRights" Resident="N" data_source="CompanyInformation" id="42" name="SystemUserRights" offset="447899" length="8195"/> 
+<DataObject PhysicalName="Users" Resident="N" data_source="WakugumiShitaji" id="73" name="Users" offset="456095" length="9602"/> 
+<DataObject PhysicalName="M_UserRights" Resident="N" data_source="WakugumiShitaji" id="109" name="M_UserRights" offset="465698" length="6893"/> 
+<DataObject PhysicalName="Categories" Resident="N" data_source="WakugumiShitaji" id="75" name="Categories" offset="472592" length="8679"/> 
+<DataObject PhysicalName="CatProcess_TEST" Resident="N" data_source="WakugumiShitaji" id="76" name="CatProcess_TEST" offset="481272" length="11909"/> 
+<DataObject PhysicalName="Status" Resident="N" data_source="WakugumiShitaji" id="77" name="Status" offset="493182" length="8655"/> 
+<DataObject PhysicalName="RememberPassword" Resident="N" data_source="WakugumiShitaji" id="7" name="RememberPassword" offset="501838" length="6712"/> 
+<DataObject Resident="N" data_source="Temporary" id="64" offset="508551" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="14" name="-----Transaction Table-----" offset="508888" length="311"/> 
+<DataObject PhysicalName="WakugumiShitaji" Resident="N" data_source="WakugumiShitaji" id="15" name="WakugumiShitaji" offset="509200" length="28315"/> 
+<DataObject PhysicalName="WakugumiShitaji_Test" Resident="N" data_source="WakugumiShitaji" id="98" name="WakugumiShitaji_Test" offset="537516" length="21339"/> 
+<DataObject PhysicalName="WakugumiTestUser" Resident="N" data_source="WakugumiShitaji" id="99" name="WakugumiTestUser" offset="558856" length="3765"/> 
+<DataObject PhysicalName="JobOnBridgesTEST" Resident="N" data_source="WakugumiShitaji" id="107" name="JobOnBridgesTEST" offset="562622" length="11301"/> 
+<DataObject Resident="N" data_source="Temporary" id="19" offset="573924" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="21" offset="574201" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="63" offset="574478" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="25" name="------Temporary Table------" offset="574815" length="311"/> 
+<DataObject PhysicalName="Wrk_Wakugumi" Resident="N" data_source="Temporary" id="86" name="Wrk_WakugumiTable" offset="575127" length="17021"/> 
+<DataObject PhysicalName="Wrk_WakugumiShitajiExport" Resident="N" data_source="Temporary" id="93" name="Wrk_WakugumiShitajiExport" offset="592149" length="19457"/> 
+<DataObject PhysicalName="Wrk_PreviousFinishedDate" Resident="N" data_source="Temporary" id="26" name="Wrk_RoofFinishedDate" offset="611607" length="1933"/> 
+<DataObject PhysicalName="Wrk_NokitenFinishedDate" Resident="N" data_source="Temporary" id="27" name="Wrk_NokitenFinishedDate" offset="613541" length="1938"/> 
+<DataObject PhysicalName="Wrk_TenjouNobuchiFinishedDate" Resident="N" data_source="Temporary" id="28" name="Wrk_TenjouNobuchiFinishedDate" offset="615480" length="1956"/> 
+<DataObject PhysicalName="Wrk_SmallShitajiFinishedDate" Resident="N" data_source="Temporary" id="94" name="Wrk_SmallShitajiFinishedDate" offset="617437" length="1953"/> 
+<DataObject PhysicalName="Wrk_DoubuchiFinishedDate" Resident="N" data_source="Temporary" id="95" name="Wrk_DoubuchiFinishedDate" offset="619391" length="1941"/> 
+<DataObject PhysicalName="Wrk_OtherShitajiFinishedDate" Resident="N" data_source="Temporary" id="96" name="Wrk_OtherShitajiFinishedDate" offset="621333" length="1953"/> 
+<DataObject PhysicalName="Wrk_TNP_Layout_GC_Plan" Resident="N" data_source="Temporary" id="29" name="Wrk_TNP_Layout_GC_Plan" offset="623287" length="6385"/> 
+<DataObject Resident="N" data_source="Temporary" id="30" offset="629673" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="101" offset="629950" length="337"/> 
+<DataObject Resident="N" data_source="Temporary" id="31" offset="630288" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="32" offset="630565" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="33" offset="630842" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="100" offset="631119" length="337"/> 
+<DataObject Resident="N" data_source="Temporary" id="102" offset="631457" length="337"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30826234123932269"/>  </Application>

@@ -1,0 +1,88 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="12050"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="126"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+                      
+<DataObject Resident="N" data_source="Temporary" id="1" name="----------Messages----------" offset="212" length="332"/> 
+<DataObject PhysicalName="Messages" Resident="N" data_source="DataExtractionTool" id="2" name="Messages" offset="545" length="5553"/> 
+<DataObject Resident="N" data_source="Temporary" id="3" name="-----Master Maintenance-----" offset="6099" length="311"/> 
+<DataObject Comment="Sample Masters Maintenance Format" PhysicalName="SampleTable" Resident="N" data_source="XPATemplate" id="37" name="SampleTable" offset="6411" length="10290"/> 
+<DataObject PhysicalName="RevisionHistory" Resident="N" data_source="XPATemplate" id="39" name="RevisionHistory" offset="16702" length="5648"/> 
+<DataObject Resident="N" data_source="Temporary" id="43" offset="22351" length="336"/> 
+<DataObject PhysicalName="EmployeeSystem" Resident="N" data_source="CompanyInformation" id="40" name="EmployeeSystem" offset="22688" length="9599"/> 
+<DataObject PhysicalName="Employees" Resident="N" data_source="CompanyInformation" id="41" name="Employees" offset="32288" length="15897"/> 
+<DataObject PhysicalName="SystemUserRights" Resident="N" data_source="CompanyInformation" id="42" name="SystemUserRights" offset="48186" length="8195"/> 
+<DataObject PhysicalName="Conditions" Resident="N" data_source="DataExtractionTool" id="8" name="Conditions" offset="56382" length="9666"/> 
+<DataObject PhysicalName="Constructions" Resident="N" data_source="HRDInfoS" id="93" name="Constructions" offset="66049" length="41632"/> 
+<DataObject PhysicalName="ConstructionSchedule" Resident="N" data_source="HRDInfoS" id="102" name="ConstructionSchedule" offset="107682" length="64090"/> 
+<DataObject PhysicalName="ExtractObjectInfos" Resident="N" data_source="DataExtractionTool" id="65" name="ExtractObjectInfos" offset="171773" length="11243"/> 
+<DataObject PhysicalName="HinbanInfos" Resident="N" data_source="NokitenSidingKanamono" id="90" name="HinbanInfos" offset="183017" length="7450"/> 
+<DataObject PhysicalName="HousePlanTypes" Resident="N" data_source="HousePlanSending" id="103" name="HousePlanTypes" offset="190468" length="7963"/> 
+<DataObject PhysicalName="HousePlanSendDetails" Resident="N" data_source="HousePlanSending" id="73" name="HousePlanSendDetails" offset="198432" length="12054"/> 
+<DataObject PhysicalName="HTHIROI" Resident="N" data_source="HRDDBS" id="75" name="HTHIROI" offset="210487" length="26158"/> 
+<DataObject PhysicalName="TZUMEN_LIST" Resident="N" data_source="NAIS" id="76" name="TZUMEN_LIST" offset="236646" length="14219"/> 
+<DataObject PhysicalName="SPCADPlanInfos" Resident="N" data_source="Photovoltaic" id="115" name="SPCADPlanInfos" offset="250866" length="37062"/> 
+<DataObject PhysicalName="SpcadCLInfos_Cad" Resident="N" data_source="Photovoltaic" id="77" name="SpcadCLInfos_Cad" offset="287929" length="30382"/> 
+<DataObject PhysicalName="Houses" Resident="N" data_source="HRDInfoS" id="78" name="Houses" offset="318312" length="52241"/> 
+<DataObject Resident="N" data_source="Temporary" id="79" offset="370554" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="14" name="-----Transaction Table-----" offset="370891" length="311"/> 
+<DataObject Resident="N" data_source="Temporary" id="83" offset="371203" length="336"/> 
+<DataObject PhysicalName="HTHIROI" Resident="N" data_source="HRDDBS" id="15" name="HTHIROI" offset="371540" length="25974"/> 
+<DataObject Resident="N" data_source="Temporary" id="16" offset="397515" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="18" offset="397792" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="19" offset="398069" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="20" offset="398346" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="21" offset="398623" length="276"/> 
+<DataObject Resident="N" data_source="Temporary" id="53" offset="398900" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="54" offset="399237" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="55" offset="399574" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="56" offset="399911" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="57" offset="400248" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="58" offset="400585" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="59" offset="400922" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="60" offset="401259" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="61" offset="401596" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="62" offset="401933" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="63" offset="402270" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="64" offset="402607" length="336"/> 
+<DataObject Resident="N" data_source="Temporary" id="25" name="------Temporary Table------" offset="402944" length="311"/> 
+<DataObject PhysicalName="w_01" Resident="N" data_source="Temporary" id="26" name="w_01" offset="403256" length="4765"/> 
+<DataObject PhysicalName="w_02" Resident="N" data_source="Temporary" id="27" name="w_02" offset="408022" length="4262"/> 
+<DataObject PhysicalName="w_05" Resident="N" data_source="Temporary" id="30" name="w_05" offset="412285" length="3567"/> 
+<DataObject PhysicalName="w_06" Resident="N" data_source="Temporary" id="31" name="w_06" offset="415853" length="3374"/> 
+<DataObject PhysicalName="w_07" Resident="N" data_source="Temporary" id="32" name="w_07" offset="419228" length="6066"/> 
+<DataObject Resident="N" data_source="Temporary" id="33" offset="425295" length="276"/> 
+<DataObject PhysicalName="W_UW318" Resident="N" data_source="Temporary" id="126" name="W_UW318" offset="425572" length="4222"/> 
+<DataObject PhysicalName="---------NMP-------------" Resident="N" id="91" name="---------NMP-------------" offset="429795" length="386"/> 
+<DataObject PhysicalName="w_NMP_01" Resident="N" data_source="Temporary" id="34" name="W_NMP_01" offset="430182" length="1468"/> 
+<DataObject PhysicalName="W_NMP_Details" Resident="N" data_source="Temporary" id="92" name="W_NMP_Details" offset="431651" length="8186"/> 
+<DataObject PhysicalName="-------------------------" Resident="N" data_source="Temporary" id="80" name="-------------------------" offset="439838" length="410"/> 
+<DataObject PhysicalName="W_Q1" Resident="N" data_source="Temporary" id="82" name="W_Q1" offset="440249" length="5677"/> 
+<DataObject Resident="N" data_source="Temporary" id="84" offset="445927" length="365"/> 
+<DataObject PhysicalName="W_01" Resident="N" data_source="Temporary" id="85" name="W_01" offset="446293" length="8168"/> 
+<DataObject PhysicalName="W_02" Resident="N" data_source="Temporary" id="87" name="W_02" offset="454462" length="1438"/> 
+<DataObject PhysicalName="w_HousePlanSending" Resident="N" data_source="Temporary" id="95" name="w_HousePlanSending" offset="455901" length="3802"/> 
+<DataObject Resident="N" id="96" offset="459704" length="312"/> 
+<DataObject PhysicalName="W_HPS" Resident="N" data_source="Temporary" id="104" name="W_HPS" offset="460017" length="2997"/> 
+<DataObject Resident="N" id="97" offset="463015" length="312"/> 
+<DataObject PhysicalName="W_GaragePanel_W_006" Resident="N" data_source="DataExtractionTool" id="98" name="W_GaragePanel_W_006" offset="463328" length="14214"/> 
+<DataObject PhysicalName="W_ModuleMonitoringSheet_W904" Resident="N" data_source="DataExtractionTool" id="109" name="W_ModuleMonitoringSheet_W904" offset="477543" length="1749"/> 
+<DataObject PhysicalName="W_ModuleMonitoringSheet_W905" Resident="N" data_source="DataExtractionTool" id="111" name="W_ModuleMonitoringSheet_W905" offset="479293" length="6675"/> 
+<DataObject PhysicalName="W_ModuleMonitoringSheet_W_NaisIchijoData" Resident="N" data_source="DataExtractionTool" id="121" name="W_ModuleMonitoringSheet_W_NaisI" offset="485969" length="11441"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30837932200951056"/>  </Application>

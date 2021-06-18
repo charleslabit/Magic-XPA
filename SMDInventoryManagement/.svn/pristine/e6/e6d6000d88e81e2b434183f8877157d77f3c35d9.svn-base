@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="151" Name="sub_p_ItemListCOPIER">
+    <Error Desc="Attribute mismatch" ID="EP0141" Location="Data View/Line #7/Variable Column/Properties/Locate from Exp"/>
+  </Task>
+
+</CheckerResult>

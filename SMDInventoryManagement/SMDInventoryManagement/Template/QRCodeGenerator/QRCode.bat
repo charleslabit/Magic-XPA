@@ -1,0 +1,1 @@
+\\Hrdapps20\MagicXPA$\XPAConfig\Template\QRCodeGenerator\mkqrimg.exe /o"c:\temp\QRCodeGenerator\BarCode\0370245-2017 2F-026_Balcony Garden_Joint Tile Group Layout.bmp" /T"0370245-2017 YK567 2018/01/26 Joint Tile Group Layout 2F-026 53" /S4

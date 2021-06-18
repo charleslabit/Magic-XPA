@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<CheckerResult>
+
+  <Task ID="168" Name="sub_QRGeneratorIT">
+    <Error Desc="Invalid program/task selected in call command" ID="EP0058" Location="Record Suffix/Line #3/Call SubTask"/>
+  </Task>
+
+</CheckerResult>

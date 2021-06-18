@@ -1,0 +1,4 @@
+﻿ <398290086082574208> 19/02/2020 08:12:41.683     [Error  ] - Unknown database, data source: CompanyInformation_MIS, program: sub_SystemStart.sub_Log-In
+ <398290086082574208> 19/02/2020 08:12:41.683     [Error  ] - Unknown database, data source: EmployeeSystem, program: sub_SystemStart.sub_Log-In
+ <140514571826194896> 19/02/2020 08:13:39.248     [Error  ] - Failed to open, data source: RevisionHistory, program: sub_SystemStart.m_MainMenu.Sub_GetDefault
+ <387668116918829312> 19/02/2020 08:13:51.987     [Error  ] - Failed to open, data source: RevisionHistory, program: Browse - RevisionHistory
